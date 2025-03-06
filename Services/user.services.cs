@@ -8,33 +8,33 @@ using InventoryManagementSystem.Models;
 using InventoryManagementSystem.Data;
 namespace InventoryManagementSystem.Services
 {
-    class userservices
+    class UserService
     {
         InventoryDbContext context;
-        public userservices()
+        public UserService()
         {
             context = new InventoryDbContext();
         }
-        public User GetByID(int id)
+        public User getUserByID(int id)
         {
             return context.Users.FirstOrDefault(x => x.Id == id);
         }
-        public List<User> GetAll()
+        public List<User> getAllUsers()
         {
             return context.Users.ToList();
         }
-        public void Add(User user)
+        public void addUser(User user)
         {
             context.Users.Add(user);
             context.SaveChanges();
         }
-        public void Update(User user)
+        public void updateUser(User user)
         {
             context.Users.Update(user);
             context.SaveChanges();
         }
 
-        public void Delete(User user)
+        public void deleteUser(User user)
         {
             context.Users.Remove(user);
             context.SaveChanges();

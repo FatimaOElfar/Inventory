@@ -8,37 +8,37 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Services
 {
-    class Productservice
+    class ProductService
     {
         InventoryDbContext context;
-        public Productservice()
+        public ProductService()
         {
             context = new InventoryDbContext();
         }
-        public Product GetByID(int id)
+        public Product getProductByID(int id)
         {
             return context.Products.FirstOrDefault(x => x.Id == id);
         }
        
-        public Product GetByName(string name)
+        public Product getProductByName(string name)
         {
             return context.Products.FirstOrDefault(x => x.Name == name);
         }
-        public List<Product> GetAll()
+        public List<Product> getAllProducts()
         {
             return context.Products.ToList();
         }
-        public void Add(Product product)
+        public void addProduct(Product product)
         {
             context.Products.Add(product);
             context.SaveChanges();
         }
-        public void Update(Product product)
+        public void updateProduct(Product product)
         {
             context.Products.Update(product);
             context.SaveChanges();
         }
-        public void Delete(Product product)
+        public void deleteProduct(Product product)
         {
             context.Products.Remove(product);
             context.SaveChanges();
