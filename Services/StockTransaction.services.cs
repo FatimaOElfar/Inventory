@@ -8,32 +8,32 @@ using InventoryManagementSystem.Models;
 using InventoryManagementSystem.Data;
 namespace InventoryManagementSystem.Services
 {
-    class StockTransactionservices
+    class StockTransactionService
     {
         InventoryDbContext context;
-        public StockTransactionservices()
+        public StockTransactionService()
         {
             context = new InventoryDbContext();
         }
-        public StockTransaction GetByID(int id)
+        public StockTransaction getStockTransactionByID(int id)
         {
             return context.StockTransactions.FirstOrDefault(x => x.Id == id);
         }
-        public List<StockTransaction> GetAll()
+        public List<StockTransaction> getAllStockTransactions()
         {
             return context.StockTransactions.ToList();
         }
-        public void Add(StockTransaction stockTransaction)
+        public void addStockTransaction(StockTransaction stockTransaction)
         {
             context.StockTransactions.Add(stockTransaction);
             context.SaveChanges();
         }
-        public void Update(StockTransaction stockTransaction)
+        public void updateStockTransaction(StockTransaction stockTransaction)
         {
             context.StockTransactions.Update(stockTransaction);
             context.SaveChanges();
         }
-        public void Delete(StockTransaction stockTransaction)
+        public void deleteStockTransaction(StockTransaction stockTransaction)
         {
             context.StockTransactions.Remove(stockTransaction);
             context.SaveChanges();
