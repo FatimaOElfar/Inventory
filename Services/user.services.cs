@@ -19,6 +19,8 @@ namespace InventoryManagementSystem.Services
         {
             return context.Users.FirstOrDefault(x => x.Id == id);
         }
+       
+
         public List<User> getAllUsers()
         {
             return context.Users.ToList();
