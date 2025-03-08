@@ -62,6 +62,21 @@ namespace InventoryManagementSystem.UI
         {
 
         }
+
+        private void exit_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Admin_pannel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblDateTime_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

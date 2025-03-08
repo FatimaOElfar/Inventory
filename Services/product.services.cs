@@ -40,8 +40,12 @@ namespace InventoryManagementSystem.Services
         }
         public void deleteProduct(Product product)
         {
-            context.Products.Remove(product);
-            context.SaveChanges();
+            var productToRemove = context.Products.Find(product.Id);
+            if (productToRemove != null)
+            {
+                context.Products.Remove(productToRemove);
+                context.SaveChanges();
+            }
         }
     }
 }
