@@ -61,7 +61,7 @@
             // txtPassword
             // 
             txtPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPassword.Location = new Point(356, 130);
+            txtPassword.Location = new Point(356, 177);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(224, 34);
             txtPassword.TabIndex = 1;
@@ -69,7 +69,7 @@
             // txtConfirmPassword
             // 
             txtConfirmPassword.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtConfirmPassword.Location = new Point(356, 198);
+            txtConfirmPassword.Location = new Point(356, 254);
             txtConfirmPassword.Name = "txtConfirmPassword";
             txtConfirmPassword.Size = new Size(224, 34);
             txtConfirmPassword.TabIndex = 2;
@@ -77,7 +77,7 @@
             // numAge
             // 
             numAge.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            numAge.Location = new Point(356, 283);
+            numAge.Location = new Point(356, 345);
             numAge.Name = "numAge";
             numAge.Size = new Size(224, 34);
             numAge.TabIndex = 3;
@@ -85,7 +85,7 @@
             // txtAddress
             // 
             txtAddress.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtAddress.Location = new Point(356, 348);
+            txtAddress.Location = new Point(356, 428);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(224, 34);
             txtAddress.TabIndex = 4;
@@ -93,7 +93,7 @@
             // txtEmail
             // 
             txtEmail.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmail.Location = new Point(356, 419);
+            txtEmail.Location = new Point(356, 114);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(224, 34);
             txtEmail.TabIndex = 5;
@@ -111,12 +111,13 @@
             // 
             chkShowPassword.AutoSize = true;
             chkShowPassword.CheckAlign = ContentAlignment.MiddleRight;
-            chkShowPassword.Location = new Point(448, 238);
+            chkShowPassword.Location = new Point(448, 294);
             chkShowPassword.Name = "chkShowPassword";
             chkShowPassword.Size = new Size(132, 24);
             chkShowPassword.TabIndex = 7;
             chkShowPassword.Text = "Show Password";
             chkShowPassword.UseVisualStyleBackColor = true;
+        
             // 
             // label1
             // 
@@ -130,7 +131,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(240, 140);
+            label2.Location = new Point(245, 177);
             label2.Name = "label2";
             label2.Size = new Size(70, 20);
             label2.TabIndex = 9;
@@ -139,7 +140,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(204, 212);
+            label3.Location = new Point(210, 254);
             label3.Name = "label3";
             label3.Size = new Size(127, 20);
             label3.TabIndex = 10;
@@ -148,7 +149,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(240, 297);
+            label4.Location = new Point(240, 354);
             label4.Name = "label4";
             label4.Size = new Size(36, 20);
             label4.TabIndex = 11;
@@ -157,7 +158,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(229, 362);
+            label5.Location = new Point(229, 438);
             label5.Name = "label5";
             label5.Size = new Size(62, 20);
             label5.TabIndex = 12;
@@ -166,7 +167,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(229, 429);
+            label6.Location = new Point(245, 114);
             label6.Name = "label6";
             label6.Size = new Size(46, 20);
             label6.TabIndex = 13;
@@ -225,7 +226,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(918, 708);
+            ClientSize = new Size(1484, 752);
             Controls.Add(lblLogin_Click);
             Controls.Add(btnExit_Click);
             Controls.Add(btnSignUp_Click);
@@ -246,6 +247,7 @@
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
             Name = "SignUpForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "SignUpForm";
             ((System.ComponentModel.ISupportInitialize)numAge).EndInit();
             ResumeLayout(false);
