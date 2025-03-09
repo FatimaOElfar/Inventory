@@ -104,6 +104,7 @@
             btn_Suppliers.TabIndex = 5;
             btn_Suppliers.Text = "Suppliers";
             btn_Suppliers.UseVisualStyleBackColor = true;
+            btn_Suppliers.Click += btn_Suppliers_Click;
             // 
             // btn_StockTransaction
             // 

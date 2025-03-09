@@ -4,6 +4,9 @@
     <Compile Update="Admin_Controls\ProductManagmentForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Admin_Controls\SupplierManagementForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="UI\AdminMainForm.cs">
       <SubType>Form</SubType>
     </Compile>

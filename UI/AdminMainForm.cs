@@ -1,4 +1,5 @@
-﻿using InventoryManagementSystem.Services;
+﻿using InventoryManagementSystem.Admin_Controls;
+using InventoryManagementSystem.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -76,6 +77,13 @@ namespace InventoryManagementSystem.UI
         private void lblDateTime_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_Suppliers_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+            SupplierManagementForm supplierControl = new SupplierManagementForm();
+            Admin_pannel.Controls.Add(supplierControl);
         }
     }
 }

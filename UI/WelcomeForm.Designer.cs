@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WelcomeForm));
             btnLogin_Click = new Button();
             btnSignUp_Click = new Button();
-            label2 = new Label();
             pictureBox1 = new PictureBox();
             label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -39,11 +38,11 @@
             // 
             // btnLogin_Click
             // 
-            btnLogin_Click.BackColor = Color.FromArgb(212, 232, 231);
+            btnLogin_Click.BackColor = Color.FromArgb(255, 192, 192);
             btnLogin_Click.FlatStyle = FlatStyle.Flat;
-            btnLogin_Click.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLogin_Click.ForeColor = Color.FromArgb(9, 111, 187);
-            btnLogin_Click.Location = new Point(166, 387);
+            btnLogin_Click.Font = new Font("Lucida Fax", 16.2F, FontStyle.Bold);
+            btnLogin_Click.ForeColor = Color.Black;
+            btnLogin_Click.Location = new Point(689, 391);
             btnLogin_Click.Name = "btnLogin_Click";
             btnLogin_Click.Size = new Size(170, 61);
             btnLogin_Click.TabIndex = 1;
@@ -53,11 +52,11 @@
             // 
             // btnSignUp_Click
             // 
-            btnSignUp_Click.BackColor = Color.FromArgb(212, 232, 231);
+            btnSignUp_Click.BackColor = Color.FromArgb(255, 192, 192);
             btnSignUp_Click.FlatStyle = FlatStyle.Flat;
-            btnSignUp_Click.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnSignUp_Click.ForeColor = Color.FromArgb(9, 111, 187);
-            btnSignUp_Click.Location = new Point(428, 387);
+            btnSignUp_Click.Font = new Font("Lucida Fax", 16.2F, FontStyle.Bold);
+            btnSignUp_Click.ForeColor = Color.Black;
+            btnSignUp_Click.Location = new Point(956, 391);
             btnSignUp_Click.Name = "btnSignUp_Click";
             btnSignUp_Click.Size = new Size(174, 61);
             btnSignUp_Click.TabIndex = 2;
@@ -65,23 +64,11 @@
             btnSignUp_Click.UseVisualStyleBackColor = false;
             btnSignUp_Click.Click += btnSignUp_Click_Click;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.FromArgb(9, 111, 187);
-            label2.Location = new Point(89, 271);
-            label2.Name = "label2";
-            label2.Size = new Size(635, 76);
-            label2.TabIndex = 4;
-            label2.Text = "Effortless tracking, optimized stock, and smarter\r\nbusiness decisions\r\n";
-            // 
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1433, 12);
+            pictureBox1.Location = new Point(1218, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(39, 40);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -92,13 +79,14 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI Semibold", 35F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(9, 111, 187);
-            label3.Location = new Point(89, 70);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Lucida Fax", 34.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.FromArgb(64, 0, 0);
+            label3.Location = new Point(166, 113);
             label3.Name = "label3";
-            label3.Size = new Size(595, 156);
+            label3.Size = new Size(976, 67);
             label3.TabIndex = 6;
-            label3.Text = "Smart Inventory \r\nManagement System";
+            label3.Text = "Welcome to our Inventory App";
             // 
             // WelcomeForm
             // 
@@ -106,11 +94,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(1484, 752);
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1269, 752);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
-            Controls.Add(label2);
             Controls.Add(btnSignUp_Click);
             Controls.Add(btnLogin_Click);
             DoubleBuffered = true;
@@ -125,7 +112,6 @@
         #endregion
         private Button btnLogin_Click;
         private Button btnSignUp_Click;
-        private Label label2;
         private PictureBox pictureBox1;
         private Label label3;
     }
