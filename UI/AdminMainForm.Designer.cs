@@ -63,7 +63,7 @@
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(333, 752);
+            panel1.Size = new Size(333, 760);
             panel1.TabIndex = 0;
             // 
             // Home
@@ -80,7 +80,7 @@
             label1.Anchor = AnchorStyles.None;
             label1.BackColor = Color.IndianRed;
             label1.Font = new Font("Segoe UI Semibold", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 2);
+            label1.Location = new Point(3, 6);
             label1.Name = "label1";
             label1.Size = new Size(327, 88);
             label1.TabIndex = 6;
@@ -89,7 +89,7 @@
             // 
             // btn_Reports
             // 
-            btn_Reports.Location = new Point(12, 642);
+            btn_Reports.Location = new Point(12, 624);
             btn_Reports.Name = "btn_Reports";
             btn_Reports.Size = new Size(302, 53);
             btn_Reports.TabIndex = 2;
@@ -98,7 +98,7 @@
             // 
             // btn_Suppliers
             // 
-            btn_Suppliers.Location = new Point(12, 553);
+            btn_Suppliers.Location = new Point(12, 544);
             btn_Suppliers.Name = "btn_Suppliers";
             btn_Suppliers.Size = new Size(302, 53);
             btn_Suppliers.TabIndex = 5;
@@ -149,6 +149,7 @@
             Admin_pannel.Name = "Admin_pannel";
             Admin_pannel.Size = new Size(1121, 668);
             Admin_pannel.TabIndex = 1;
+            Admin_pannel.Paint += Admin_pannel_Paint;
             // 
             // pnlNavbar
             // 
@@ -159,18 +160,19 @@
             pnlNavbar.Dock = DockStyle.Top;
             pnlNavbar.Location = new Point(333, 0);
             pnlNavbar.Name = "pnlNavbar";
-            pnlNavbar.Size = new Size(1151, 68);
+            pnlNavbar.Size = new Size(1158, 68);
             pnlNavbar.TabIndex = 2;
             // 
             // exit
             // 
             exit.BackgroundImage = (Image)resources.GetObject("exit.BackgroundImage");
             exit.BackgroundImageLayout = ImageLayout.Stretch;
-            exit.Location = new Point(1047, 12);
+            exit.Location = new Point(1095, 12);
             exit.Name = "exit";
             exit.Size = new Size(44, 35);
             exit.TabIndex = 0;
             exit.TabStop = false;
+            exit.Click += exit_Click_1;
             // 
             // lblUsername
             // 
@@ -200,12 +202,13 @@
             lblDateTime.Size = new Size(50, 20);
             lblDateTime.TabIndex = 0;
             lblDateTime.Text = "label2";
+            lblDateTime.Click += lblDateTime_Click;
             // 
             // AdminMainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1484, 752);
+            ClientSize = new Size(1491, 760);
             Controls.Add(pnlNavbar);
             Controls.Add(Admin_pannel);
             Controls.Add(panel1);
