@@ -779,3 +779,7 @@ E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\Inventory
 E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
 E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
 E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
+E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
+E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.UserManagement.resources
+E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.Dashbord.resources
+E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockManagement.resources

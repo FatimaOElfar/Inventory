@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace InventoryManagementSystem.UI
+namespace InventoryManagementSystem.Admin_Controls
 {
-    public partial class StaffMainForm : Form
+    public partial class StockManagement : UserControl
     {
-        private string _role;
-        private int _id;
-        public StaffMainForm( string role, int id)
+        public StockManagement()
         {
             InitializeComponent();
-            _role = role;
-            _id = id;
-
         }
     }
 }
