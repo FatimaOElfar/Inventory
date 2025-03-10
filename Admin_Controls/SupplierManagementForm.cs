@@ -24,6 +24,7 @@ namespace InventoryManagementSystem.Admin_Controls
             dgv_ShowData.DataSource = _supplierService.getAllSuppliers()
                 .Select(s => new { s.Id, s.Name, s.ContactInfo, s.Address })
                 .ToList();
+            ApplyGridViewStyle();
         }
 
         private void btn_save_Click(object sender, EventArgs e)
@@ -111,9 +112,9 @@ namespace InventoryManagementSystem.Admin_Controls
             {
                 var row = dgv_ShowData.Rows[e.RowIndex];
                 _selectedSupplierId = Convert.ToInt32(row.Cells["Id"].Value);
-                txt_name.Text = row.Cells["Name"].Value.ToString();
-                txt_contact.Text = row.Cells["ContactInfo"].Value.ToString();
-                txt_address.Text = row.Cells["Address"].Value.ToString();
+                txt_name.Text = row.Cells["Name"].Value?.ToString() ?? string.Empty;
+                txt_contact.Text = row.Cells["ContactInfo"].Value?.ToString() ?? string.Empty;
+                txt_address.Text = row.Cells["Address"].Value?.ToString() ?? string.Empty;
 
                 btn_save.Visible = false;
                 btn_edit.Visible = true;
@@ -146,6 +147,56 @@ namespace InventoryManagementSystem.Admin_Controls
             btn_edit.Visible = false;
             btn_delete.Visible = false;
             lbl_GoBack.Visible = false;
+        }
+        private void ApplyGridViewStyle()
+        {
+
+            dgv_ShowData.Font = new Font("Segoe UI", 8);
+
+
+            dgv_ShowData.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dgv_ShowData.AlternatingRowsDefaultCellStyle.ForeColor = Color.Black;
+
+            // Set the default row style
+            dgv_ShowData.RowsDefaultCellStyle.BackColor = Color.White;
+            dgv_ShowData.RowsDefaultCellStyle.ForeColor = Color.Black;
+
+            // Set the header style
+            dgv_ShowData.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 12, FontStyle.Bold);
+            dgv_ShowData.ColumnHeadersDefaultCellStyle.BackColor = Color.SteelBlue;
+            dgv_ShowData.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgv_ShowData.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+
+            // Set the selection style
+            dgv_ShowData.DefaultCellStyle.SelectionBackColor = Color.SteelBlue;
+            dgv_ShowData.DefaultCellStyle.SelectionForeColor = Color.White;
+
+            // Customize grid lines
+            dgv_ShowData.GridColor = Color.Gray;
+            dgv_ShowData.BorderStyle = BorderStyle.None;
+
+            // Enable row headers and customize their appearance
+            dgv_ShowData.RowHeadersVisible = true;
+            dgv_ShowData.RowHeadersDefaultCellStyle.BackColor = Color.SteelBlue;
+            dgv_ShowData.RowHeadersDefaultCellStyle.ForeColor = Color.White;
+
+            // Auto-size columns to fit the content
+            dgv_ShowData.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+            // Disable user resizing of rows and columns
+            dgv_ShowData.AllowUserToResizeRows = false;
+            dgv_ShowData.AllowUserToResizeColumns = false;
+
+            // Enable row selection by clicking anywhere on the row
+            dgv_ShowData.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+            // Disable multi-row selection
+            dgv_ShowData.MultiSelect = false;
+
+            // Add padding to cells
+            dgv_ShowData.DefaultCellStyle.Padding = new Padding(5);
+
+
         }
     }
 }
