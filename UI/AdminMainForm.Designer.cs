@@ -103,13 +103,14 @@
             // 
             // btn_StockTransaction
             // 
-            btn_StockTransaction.BackColor = Color.RosyBrown;
+            btn_StockTransaction.BackColor = Color.WhiteSmoke;
             btn_StockTransaction.Location = new Point(18, 606);
             btn_StockTransaction.Name = "btn_StockTransaction";
             btn_StockTransaction.Size = new Size(302, 53);
             btn_StockTransaction.TabIndex = 4;
             btn_StockTransaction.Text = "Stock Transaction";
             btn_StockTransaction.UseVisualStyleBackColor = false;
+            btn_StockTransaction.Click += btn_StockTransaction_Click;
             // 
             // label4
             // 
@@ -197,6 +198,7 @@
             btn_Sale.TabIndex = 3;
             btn_Sale.Text = "Sales Management";
             btn_Sale.UseVisualStyleBackColor = false;
+            btn_Sale.Click += btn_Sale_Click;
             // 
             // btn_ProductManagment
             // 
@@ -248,17 +250,18 @@
             lbl_role.AutoSize = true;
             lbl_role.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
             lbl_role.ForeColor = Color.RosyBrown;
-            lbl_role.Location = new Point(456, 24);
+            lbl_role.Location = new Point(517, 19);
             lbl_role.Name = "lbl_role";
             lbl_role.Size = new Size(66, 35);
             lbl_role.TabIndex = 3;
             lbl_role.Text = "Role";
+            lbl_role.Click += lbl_role_Click;
             // 
             // exit
             // 
             exit.BackgroundImage = (Image)resources.GetObject("exit.BackgroundImage");
             exit.BackgroundImageLayout = ImageLayout.Stretch;
-            exit.Location = new Point(1096, 12);
+            exit.Location = new Point(1364, 17);
             exit.Name = "exit";
             exit.Size = new Size(44, 35);
             exit.TabIndex = 0;
@@ -270,7 +273,7 @@
             lblUsername.AutoSize = true;
             lblUsername.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblUsername.ForeColor = Color.RosyBrown;
-            lblUsername.Location = new Point(905, 27);
+            lblUsername.Location = new Point(1008, 27);
             lblUsername.Name = "lblUsername";
             lblUsername.Size = new Size(48, 20);
             lblUsername.TabIndex = 2;
@@ -280,7 +283,7 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(827, 0);
+            pictureBox1.Location = new Point(917, 3);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(72, 63);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;

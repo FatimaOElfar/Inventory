@@ -782,4 +782,4 @@ E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\Inventory
 E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
 E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.UserManagement.resources
 E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.Dashbord.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockManagement.resources
+E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockTransaction.resources

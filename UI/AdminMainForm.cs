@@ -92,8 +92,27 @@ namespace InventoryManagementSystem.UI
         private void Home_Click(object sender, EventArgs e)
         {
             Admin_pannel.Controls.Clear();
-             Dashbord dashbord = new Dashbord();
+            Dashbord dashbord = new Dashbord();
             Admin_pannel.Controls.Add(dashbord);
+
+        }
+
+        private void lbl_role_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Sale_Click(object sender, EventArgs e)
+        {
+       
+
+        }
+
+        private void btn_StockTransaction_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+            StockTransaction stock = new StockTransaction();
+            Admin_pannel.Controls.Add(stock);
 
         }
     }

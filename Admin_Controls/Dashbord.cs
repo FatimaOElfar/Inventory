@@ -1,4 +1,5 @@
 ﻿using InventoryManagementSystem.Data;
+using InventoryManagementSystem.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,7 +25,7 @@ namespace InventoryManagementSystem.Admin_Controls
             {
                 // Get total purchases
                 var totalPurchases = db.StockTransactions
-                    .Where(t => t.TransactionType == "Purchase")
+                    .Where(t => t.TransactionType == "Stock-In")
                     .Sum(t => t.Quantity);
 
                 // Get total inventory (count of products)
@@ -35,7 +36,7 @@ namespace InventoryManagementSystem.Admin_Controls
 
                 // Get total profit (sales revenue - purchase cost)
                 var totalProfit = totalSales - db.StockTransactions
-                    .Where(t => t.TransactionType == "Purchase")
+                    .Where(t => t.TransactionType == "Stock-In")
                     .Sum(t => t.Quantity * t.Product.Price);
 
                 // Get total number of sale orders
@@ -43,7 +44,7 @@ namespace InventoryManagementSystem.Admin_Controls
 
                 // Get total number of purchase orders
                 var purchaseOrdersCount = db.StockTransactions
-                    .Where(t => t.TransactionType == "Purchase")
+                    .Where(t => t.TransactionType == "Stock-In")
                     .Count();
 
                 // Get total number of suppliers
@@ -95,5 +96,6 @@ namespace InventoryManagementSystem.Admin_Controls
         }
 
 
+   
     }
 }

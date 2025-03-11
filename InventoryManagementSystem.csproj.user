@@ -7,10 +7,10 @@
     <Compile Update="Admin_Controls\SupplierManagementForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Admin_Controls\StockManagement.cs">
+    <Compile Update="Admin_Controls\Dashbord.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Admin_Controls\Dashbord.cs">
+    <Compile Update="Admin_Controls\StockTransaction.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin_Controls\UserManagement.cs">
