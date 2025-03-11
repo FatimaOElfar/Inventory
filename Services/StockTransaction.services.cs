@@ -38,6 +38,5 @@ namespace InventoryManagementSystem.Services
             context.StockTransactions.Remove(stockTransaction);
             context.SaveChanges();
         }
-
     }
 }

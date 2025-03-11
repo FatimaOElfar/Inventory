@@ -1,4 +1,5 @@
-﻿using InventoryManagementSystem.Services;
+﻿using InventoryManagementSystem.Models;
+using InventoryManagementSystem.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,6 +15,8 @@ namespace InventoryManagementSystem.UI
     public partial class LoginForm : Form
     {
         private readonly UserService _userService;
+       
+        public string _role;
         public LoginForm()
         {
             InitializeComponent();
@@ -32,6 +35,7 @@ namespace InventoryManagementSystem.UI
         {
             string userName = txt_userName.Text;
             string password = txt_Pass.Text;
+            
             if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Please Enter username and password", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -39,6 +43,7 @@ namespace InventoryManagementSystem.UI
             }
             var user = _userService.getAllUsers()
                      .FirstOrDefault(u => u.Username == txt_userName.Text && u.Password == txt_Pass.Text);
+            
 
             if (user != null)
             {
@@ -48,19 +53,19 @@ namespace InventoryManagementSystem.UI
                  MessageBoxIcon.Information);
                 if (user.Role != null && user.Role.ToString() == "Admin")
                 {
-                    AdminMainForm mainForm = new AdminMainForm(user.Role);
+                    AdminMainForm mainForm = new AdminMainForm(user.Role,user.Id,user.Username);
                     mainForm.Show();
                     this.Hide();
                 }
                 else if (user.Role != null && user.Role.ToString() == "Manager")
                 {
-                    ManagerMainForm mainForm = new ManagerMainForm(user.Role);
+                    ManagerMainForm mainForm = new ManagerMainForm(user.Role, user.Id);
                     mainForm.Show();
                     this.Hide();
                 }
                 else if (user.Role != null && user.Role.ToString() == "Staff")
                 {
-                    StaffMainForm mainForm = new StaffMainForm(user.Role);
+                    StaffMainForm mainForm = new StaffMainForm(user.Role, user.Id);
                     mainForm.Show();
                     this.Hide();
                 }
@@ -105,6 +110,7 @@ namespace InventoryManagementSystem.UI
 
         }
 
+       
 
     }
 }

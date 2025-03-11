@@ -9,41 +9,39 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using InventoryManagementSystem.UI;
 
 namespace InventoryManagementSystem.UI
 {
     public partial class AdminMainForm : Form
     {
         private string _role;
+        public int _id;
+        public string _name;
         private UserService _user;
-        public AdminMainForm(string role)
+        public AdminMainForm(string role, int id, string name)
         {
             InitializeComponent();
             this._role = role;
+            this._id = id;
+            this._name = name;
             _user = new UserService();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
 
-        }
 
         private void AdminMainForm_Load(object sender, EventArgs e)
         {
             lblDateTime.Text = DateTime.Now.ToString("MMMM dd, yyyy, h:mm tt");
-            //// Assuming getUserByID() returns a User object
-            //UserService user = _user.getUserByID();
+            // Assuming getUserByID() returns a User object
+            lblUsername.Text = "Welcome " + _name;
+            lbl_role.Text = _role;
 
-            //if (user != null)
-            //{
-            //    lblUsername.Text = user.UserName; // Assuming User class has a Username property
-            //}
-            //else
-            //{
-            //    lblUsername.Text = "Unknown User"; // Fallback text if user is null
-            //}
+
+
 
         }
+
 
         private void exit_Click(object sender, EventArgs e)
         {
@@ -61,8 +59,13 @@ namespace InventoryManagementSystem.UI
 
         private void btn_UserManagment_Click(object sender, EventArgs e)
         {
+            Admin_pannel.Controls.Clear();
+            UserManagement UserList = new UserManagement(_role);
+            Admin_pannel.Controls.Add(UserList);
+
 
         }
+
 
         private void exit_Click_1(object sender, EventArgs e)
         {
@@ -96,10 +99,17 @@ namespace InventoryManagementSystem.UI
         private void but_newSale_Click(object sender, EventArgs e)
         {
             Admin_pannel.Controls.Clear();
-           NewSale salesControl = new NewSale();
+            NewSale salesControl = new NewSale();
             Admin_pannel.Controls.Add(salesControl);
+        }
+        private void Home_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+             Dashbord dashbord = new Dashbord();
+            Admin_pannel.Controls.Add(dashbord);
 
         }
     }
 }
+
 

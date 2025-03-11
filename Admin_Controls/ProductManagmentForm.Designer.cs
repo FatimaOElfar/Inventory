@@ -36,8 +36,8 @@
             label6 = new Label();
             label7 = new Label();
             panel3 = new Panel();
+            btn_clear = new Button();
             txt_category = new TextBox();
-            pictureBox1 = new PictureBox();
             panel1 = new Panel();
             txt_name_search = new TextBox();
             search_picture = new PictureBox();
@@ -49,20 +49,24 @@
             txt_price = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgv_ShowData).BeginInit();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)search_picture).BeginInit();
             SuspendLayout();
             // 
             // dgv_ShowData
             // 
+            dgv_ShowData.AllowUserToAddRows = false;
+            dgv_ShowData.AllowUserToDeleteRows = false;
             dgv_ShowData.BackgroundColor = Color.RosyBrown;
             dgv_ShowData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgv_ShowData.Location = new Point(3, 257);
             dgv_ShowData.Margin = new Padding(3, 2, 3, 2);
+            dgv_ShowData.Location = new Point(0, 350);
             dgv_ShowData.Name = "dgv_ShowData";
+            dgv_ShowData.ReadOnly = true;
             dgv_ShowData.RowHeadersWidth = 51;
             dgv_ShowData.Size = new Size(976, 239);
+            dgv_ShowData.Size = new Size(1186, 390);
             dgv_ShowData.TabIndex = 0;
             dgv_ShowData.RowHeaderMouseDoubleClick += dgv_ShowData_RowHeaderMouseDoubleClick;
             // 
@@ -116,6 +120,7 @@
             label7.Font = new Font("Segoe UI", 11F);
             label7.ForeColor = Color.FromArgb(9, 111, 187);
             label7.Location = new Point(340, 9);
+            label7.Location = new Point(422, 12);
             label7.Name = "label7";
             label7.Size = new Size(107, 20);
             label7.TabIndex = 6;
@@ -124,8 +129,8 @@
             // panel3
             // 
             panel3.BackColor = Color.WhiteSmoke;
+            panel3.Controls.Add(btn_clear);
             panel3.Controls.Add(txt_category);
-            panel3.Controls.Add(pictureBox1);
             panel3.Controls.Add(panel1);
             panel3.Controls.Add(cb_supplier);
             panel3.Controls.Add(btn_Edit);
@@ -144,7 +149,20 @@
             panel3.Margin = new Padding(3, 2, 3, 2);
             panel3.Name = "panel3";
             panel3.Size = new Size(981, 501);
+            panel3.Size = new Size(1189, 743);
             panel3.TabIndex = 2;
+            // 
+            // btn_clear
+            // 
+            btn_clear.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_clear.ForeColor = Color.FromArgb(9, 111, 187);
+            btn_clear.Location = new Point(957, 58);
+            btn_clear.Name = "btn_clear";
+            btn_clear.Size = new Size(157, 58);
+            btn_clear.TabIndex = 33;
+            btn_clear.Text = "Clear";
+            btn_clear.UseVisualStyleBackColor = true;
+            btn_clear.Click += btn_clear_Click;
             // 
             // txt_category
             // 
@@ -156,17 +174,17 @@
             txt_category.TabIndex = 32;
             // 
             // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(934, 9);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(37, 19);
-            pictureBox1.TabIndex = 31;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            //// 
+            //pictureBox1.BackColor = Color.Transparent;
+            //pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            //pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
+            //pictureBox1.Location = new Point(934, 9);
+            //pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            //pictureBox1.Name = "pictureBox1";
+            //pictureBox1.Size = new Size(37, 19);
+            //pictureBox1.TabIndex = 31;
+            //pictureBox1.TabStop = false;
+            //pictureBox1.Click += pictureBox1_Click;
             // 
             // panel1
             // 
@@ -174,6 +192,7 @@
             panel1.Controls.Add(search_picture);
             panel1.Location = new Point(279, 44);
             panel1.Margin = new Padding(3, 2, 3, 2);
+            panel1.Location = new Point(357, 58);
             panel1.Name = "panel1";
             panel1.Size = new Size(293, 32);
             panel1.TabIndex = 30;
@@ -221,6 +240,7 @@
             btn_Edit.ForeColor = Color.FromArgb(9, 111, 187);
             btn_Edit.Location = new Point(786, 130);
             btn_Edit.Margin = new Padding(3, 2, 3, 2);
+            btn_Edit.Location = new Point(957, 216);
             btn_Edit.Name = "btn_Edit";
             btn_Edit.Size = new Size(137, 44);
             btn_Edit.TabIndex = 26;
@@ -234,6 +254,7 @@
             btn_remove.ForeColor = Color.FromArgb(9, 111, 187);
             btn_remove.Location = new Point(786, 192);
             btn_remove.Margin = new Padding(3, 2, 3, 2);
+            btn_remove.Location = new Point(957, 286);
             btn_remove.Name = "btn_remove";
             btn_remove.Size = new Size(137, 44);
             btn_remove.TabIndex = 25;
@@ -247,6 +268,8 @@
             btn_save.ForeColor = Color.FromArgb(9, 111, 187);
             btn_save.Location = new Point(786, 68);
             btn_save.Margin = new Padding(3, 2, 3, 2);
+
+            btn_save.Location = new Point(957, 139);
             btn_save.Name = "btn_save";
             btn_save.Size = new Size(137, 44);
             btn_save.TabIndex = 24;
@@ -280,10 +303,10 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "Ucontrol_Products";
             Size = new Size(981, 501);
+            Size = new Size(1189, 743);
             ((System.ComponentModel.ISupportInitialize)dgv_ShowData).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)search_picture).EndInit();
@@ -308,6 +331,6 @@
         private Panel panel1;
         private TextBox txt_name_search;
         private PictureBox search_picture;
-        private PictureBox pictureBox1;
         private TextBox txt_category;
+        private Button btn_clear;
     } }
