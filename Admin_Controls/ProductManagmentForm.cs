@@ -174,7 +174,7 @@ namespace InventoryManagementSystem
                     // Fetch the product without tracking
                     var product = context.Products
                                         .AsNoTracking()
-                                        .Include(p => p.Supplier) 
+                                        .Include(p => p.Supplier)
                                         .FirstOrDefault(p => p.Id == _selectedProductId);
 
                     if (product != null)
@@ -262,7 +262,7 @@ namespace InventoryManagementSystem
         }
         private void ApplyGridViewStyle()
         {
-          
+
             dgv_ShowData.Font = new Font("Segoe UI", 10);
 
 
@@ -331,5 +331,7 @@ namespace InventoryManagementSystem
                 }
             };
         }
+
+        
     }
 }

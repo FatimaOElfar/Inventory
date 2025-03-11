@@ -85,6 +85,21 @@ namespace InventoryManagementSystem.UI
             SupplierManagementForm supplierControl = new SupplierManagementForm();
             Admin_pannel.Controls.Add(supplierControl);
         }
+
+        private void btn_Sale_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+            SalesHistory salesControl = new SalesHistory();
+            Admin_pannel.Controls.Add(salesControl);
+        }
+
+        private void but_newSale_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+           NewSale salesControl = new NewSale();
+            Admin_pannel.Controls.Add(salesControl);
+
+        }
     }
 }
 
