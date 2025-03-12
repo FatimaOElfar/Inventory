@@ -33,16 +33,19 @@
             btnSignUp_Click = new Button();
             pictureBox1 = new PictureBox();
             label3 = new Label();
+            pictureBox2 = new PictureBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // btnLogin_Click
             // 
-            btnLogin_Click.BackColor = Color.FromArgb(255, 192, 192);
+            btnLogin_Click.BackColor = Color.White;
             btnLogin_Click.FlatStyle = FlatStyle.Flat;
-            btnLogin_Click.Font = new Font("Lucida Fax", 16.2F, FontStyle.Bold);
-            btnLogin_Click.ForeColor = Color.Black;
-            btnLogin_Click.Location = new Point(689, 391);
+            btnLogin_Click.Font = new Font("Lucida Fax", 12F, FontStyle.Bold);
+            btnLogin_Click.ForeColor = Color.FromArgb(3, 68, 136);
+            btnLogin_Click.Location = new Point(119, 371);
             btnLogin_Click.Name = "btnLogin_Click";
             btnLogin_Click.Size = new Size(170, 61);
             btnLogin_Click.TabIndex = 1;
@@ -52,11 +55,11 @@
             // 
             // btnSignUp_Click
             // 
-            btnSignUp_Click.BackColor = Color.FromArgb(255, 192, 192);
+            btnSignUp_Click.BackColor = Color.White;
             btnSignUp_Click.FlatStyle = FlatStyle.Flat;
-            btnSignUp_Click.Font = new Font("Lucida Fax", 16.2F, FontStyle.Bold);
-            btnSignUp_Click.ForeColor = Color.Black;
-            btnSignUp_Click.Location = new Point(956, 391);
+            btnSignUp_Click.Font = new Font("Lucida Fax", 12F, FontStyle.Bold);
+            btnSignUp_Click.ForeColor = Color.FromArgb(3, 68, 136);
+            btnSignUp_Click.Location = new Point(350, 371);
             btnSignUp_Click.Name = "btnSignUp_Click";
             btnSignUp_Click.Size = new Size(174, 61);
             btnSignUp_Click.TabIndex = 2;
@@ -68,7 +71,7 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1218, 12);
+            pictureBox1.Location = new Point(1508, 27);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(39, 40);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -80,31 +83,58 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Lucida Fax", 34.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(64, 0, 0);
-            label3.Location = new Point(166, 113);
+            label3.Font = new Font("Century Schoolbook", 29F, FontStyle.Bold);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(3, 78);
             label3.Name = "label3";
-            label3.Size = new Size(976, 67);
+            label3.Size = new Size(686, 58);
             label3.TabIndex = 6;
-            label3.Text = "Welcome to our Inventory App";
+            label3.Text = "Welcome to our Inventory";
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
+            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Dock = DockStyle.Right;
+            pictureBox2.Location = new Point(695, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(912, 999);
+            pictureBox2.TabIndex = 7;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Century Schoolbook", 20F, FontStyle.Bold);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(23, 221);
+            label1.Name = "label1";
+            label1.Size = new Size(501, 40);
+            label1.TabIndex = 8;
+            label1.Text = "With our intuitive platform";
             // 
             // WelcomeForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.FromArgb(3, 68, 136);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1269, 752);
+            ClientSize = new Size(1607, 999);
+            Controls.Add(label1);
+            Controls.Add(pictureBox2);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
             Controls.Add(btnSignUp_Click);
             Controls.Add(btnLogin_Click);
             DoubleBuffered = true;
+            ForeColor = Color.FromArgb(3, 68, 136);
             Name = "WelcomeForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "WelcomeForm";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -114,5 +144,7 @@
         private Button btnSignUp_Click;
         private PictureBox pictureBox1;
         private Label label3;
+        private PictureBox pictureBox2;
+        private Label label1;
     }
 }

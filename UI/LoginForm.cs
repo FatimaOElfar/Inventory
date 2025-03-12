@@ -15,7 +15,7 @@ namespace InventoryManagementSystem.UI
     public partial class LoginForm : Form
     {
         private readonly UserService _userService;
-       
+
         public string _role;
         public LoginForm()
         {
@@ -35,7 +35,7 @@ namespace InventoryManagementSystem.UI
         {
             string userName = txt_userName.Text;
             string password = txt_Pass.Text;
-            
+
             if (string.IsNullOrWhiteSpace(userName) || string.IsNullOrWhiteSpace(password))
             {
                 MessageBox.Show("Please Enter username and password", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -43,7 +43,7 @@ namespace InventoryManagementSystem.UI
             }
             var user = _userService.getAllUsers()
                      .FirstOrDefault(u => u.Username == txt_userName.Text && u.Password == txt_Pass.Text);
-            
+
 
             if (user != null)
             {
@@ -53,7 +53,7 @@ namespace InventoryManagementSystem.UI
                  MessageBoxIcon.Information);
                 if (user.Role != null && user.Role.ToString() == "Admin")
                 {
-                    AdminMainForm mainForm = new AdminMainForm(user.Role,user.Id,user.Username);
+                    AdminMainForm mainForm = new AdminMainForm(user.Role, user.Id, user.Username);
                     mainForm.Show();
                     this.Hide();
                 }
@@ -81,7 +81,7 @@ namespace InventoryManagementSystem.UI
             }
 
         }
-       
+
 
         private void btnExit_Click_Click(object sender, EventArgs e)
         {
@@ -110,7 +110,9 @@ namespace InventoryManagementSystem.UI
 
         }
 
-       
+        private void txt_userName_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

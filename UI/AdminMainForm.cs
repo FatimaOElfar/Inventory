@@ -89,6 +89,19 @@ namespace InventoryManagementSystem.UI
             Admin_pannel.Controls.Add(supplierControl);
         }
 
+        private void btn_Sale_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+            SalesHistory salesControl = new SalesHistory();
+            Admin_pannel.Controls.Add(salesControl);
+        }
+
+        private void but_newSale_Click(object sender, EventArgs e)
+        {
+            Admin_pannel.Controls.Clear();
+            NewSale salesControl = new NewSale();
+            Admin_pannel.Controls.Add(salesControl);
+        }
         private void Home_Click(object sender, EventArgs e)
         {
             Admin_pannel.Controls.Clear();
@@ -102,17 +115,24 @@ namespace InventoryManagementSystem.UI
 
         }
 
-        private void btn_Sale_Click(object sender, EventArgs e)
-        {
-       
-
-        }
-
         private void btn_StockTransaction_Click(object sender, EventArgs e)
         {
             Admin_pannel.Controls.Clear();
             StockTransaction stock = new StockTransaction();
             Admin_pannel.Controls.Add(stock);
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
         }
     }
