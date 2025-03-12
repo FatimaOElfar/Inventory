@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYFf6Jd5niQ=",
+  "dgSpecHash": "QKMicr0VNqw=",
   "success": true,
-  "projectFilePath": "E:\\ITI_Intake45_PD\\.Net_Track\\LINQ & EF\\inventoryProject\\Inventory\\InventoryManagementSystem.csproj",
+  "projectFilePath": "F:\\v2\\Inventory\\InventoryManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fatma\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Fatma\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
