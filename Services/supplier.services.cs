@@ -1,44 +1,56 @@
 ﻿using InventoryManagementSystem.Data;
-using System;
+using InventoryManagementSystem.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using InventoryManagementSystem.Models;
-using InventoryManagementSystem.Data;
+
 namespace InventoryManagementSystem.Services
 {
     class SupplierService
     {
-        InventoryDbContext context;
+        private readonly InventoryDbContext context;
+
         public SupplierService()
         {
             context = new InventoryDbContext();
         }
+
         public Supplier getSupplierByID(int id)
         {
-            return context.Suppliers.FirstOrDefault(x => x.Id == id);
+            return context.Suppliers.AsNoTracking().FirstOrDefault(x => x.Id == id);
         }
+
         public List<Supplier> getAllSuppliers()
         {
-            return context.Suppliers.ToList();
+            return context.Suppliers.AsNoTracking().ToList();
         }
+
         public void addSupplier(Supplier supplier)
         {
             context.Suppliers.Add(supplier);
             context.SaveChanges();
         }
+
         public void updateSupplier(Supplier supplier)
         {
-            context.Suppliers.Update(supplier);
-            context.SaveChanges();
+            var existingSupplier = context.Suppliers.Find(supplier.Id);
+            if (existingSupplier != null)
+            {
+                existingSupplier.Name = supplier.Name;
+                existingSupplier.ContactInfo = supplier.ContactInfo;
+                existingSupplier.Address = supplier.Address;
+                context.SaveChanges();
+            }
         }
-        public void deleteSupplier(Supplier supplier)
+
+        public void deleteSupplier(int supplierId)
         {
-            context.Suppliers.Remove(supplier);
-            context.SaveChanges();
+            var supplier = context.Suppliers.Find(supplierId);
+            if (supplier != null)
+            {
+                context.Suppliers.Remove(supplier);
+                context.SaveChanges();
+            }
         }
     }
-
-
 }
