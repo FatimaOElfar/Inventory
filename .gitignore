@@ -1,1 +1,10 @@
 .vs/
+<<<<<<< Updated upstream
+=======
+bin/
+obj/
+*.cache
+*.nuget.cache
+*.dll
+*.pdb
+>>>>>>> Stashed changes
