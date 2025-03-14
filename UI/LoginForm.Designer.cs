@@ -134,6 +134,11 @@
             label2.Location = new Point(49, 77);
             label2.Name = "label2";
             label2.Size = new Size(391, 59);
+            label2.Font = new Font("Century Schoolbook", 30.2F, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(3, 68, 136);
+            label2.Location = new Point(49, 77);
+            label2.Name = "label2";
+            label2.Size = new Size(422, 60);
             label2.TabIndex = 23;
             label2.Text = "Welcome Back!";
             // 
@@ -151,6 +156,9 @@
             panel1.Location = new Point(272, 107);
             panel1.Name = "panel1";
             panel1.Size = new Size(1063, 686);
+            panel1.Location = new Point(262, 117);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1107, 771);
             panel1.TabIndex = 24;
             // 
             // pictureBox2
@@ -160,6 +168,7 @@
             pictureBox2.Location = new Point(494, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(567, 685);
+            pictureBox2.Size = new Size(610, 768);
             pictureBox2.TabIndex = 25;
             pictureBox2.TabStop = false;
             // 
@@ -170,6 +179,8 @@
             BackColor = Color.FromArgb(3, 68, 136);
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1550, 907);
+
+            ClientSize = new Size(1607, 999);
             Controls.Add(panel1);
             Controls.Add(btnExit_Click);
             DoubleBuffered = true;

@@ -35,6 +35,9 @@
             label3 = new Label();
             pictureBox2 = new PictureBox();
             label2 = new Label();
+            label1 = new Label(); // Add this line to initialize label1
+
+
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -46,6 +49,9 @@
             btnLogin_Click.Font = new Font("Microsoft Sans Serif", 13F, FontStyle.Bold);
             btnLogin_Click.ForeColor = Color.FromArgb(3, 68, 136);
             btnLogin_Click.Location = new Point(89, 457);
+            btnLogin_Click.Font = new Font("Lucida Fax", 12F, FontStyle.Bold);
+            btnLogin_Click.ForeColor = Color.FromArgb(3, 68, 136);
+            btnLogin_Click.Location = new Point(119, 371);
             btnLogin_Click.Name = "btnLogin_Click";
             btnLogin_Click.Size = new Size(170, 61);
             btnLogin_Click.TabIndex = 1;
@@ -60,6 +66,9 @@
             btnSignUp_Click.Font = new Font("Microsoft Sans Serif", 13F, FontStyle.Bold);
             btnSignUp_Click.ForeColor = Color.FromArgb(3, 68, 136);
             btnSignUp_Click.Location = new Point(345, 457);
+            btnSignUp_Click.Font = new Font("Lucida Fax", 12F, FontStyle.Bold);
+            btnSignUp_Click.ForeColor = Color.FromArgb(3, 68, 136);
+            btnSignUp_Click.Location = new Point(350, 371);
             btnSignUp_Click.Name = "btnSignUp_Click";
             btnSignUp_Click.Size = new Size(174, 61);
             btnSignUp_Click.TabIndex = 2;
@@ -91,6 +100,14 @@
             label3.TabIndex = 6;
             label3.Text = "Welcome to our Inventory App!";
             label3.Click += label3_Click;
+
+            label3.Font = new Font("Century Schoolbook", 29F, FontStyle.Bold);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(3, 78);
+            label3.Name = "label3";
+            label3.Size = new Size(686, 58);
+            label3.TabIndex = 6;
+            label3.Text = "Welcome to our Inventory";
             // 
             // pictureBox2
             // 
@@ -100,6 +117,10 @@
             pictureBox2.Location = new Point(669, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(881, 907);
+
+            pictureBox2.Location = new Point(695, 0);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(912, 999);
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
@@ -115,6 +136,18 @@
             label2.Size = new Size(639, 58);
             label2.TabIndex = 9;
             label2.Text = "Get ready for smarter and more efficient management.\r\nGreater Profits!";
+
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Century Schoolbook", 20F, FontStyle.Bold);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(23, 221);
+            label1.Name = "label1";
+            label1.Size = new Size(501, 40);
+            label1.TabIndex = 8;
+            label1.Text = "With our intuitive platform";
             // 
             // WelcomeForm
             // 
@@ -124,6 +157,9 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1550, 907);
             Controls.Add(label2);
+
+            ClientSize = new Size(1607, 999);
+            Controls.Add(label1);
             Controls.Add(pictureBox2);
             Controls.Add(label3);
             Controls.Add(pictureBox1);
@@ -147,5 +183,6 @@
         private Label label3;
         private PictureBox pictureBox2;
         private Label label2;
+        private Label label1;
     }
 }

@@ -9,6 +9,7 @@ namespace InventoryManagementSystem.UI
     public partial class LoginForm : Form
     {
         private readonly UserService _userService;
+
         public string _role;
 
         public LoginForm()
@@ -32,7 +33,9 @@ namespace InventoryManagementSystem.UI
             }
 
             var user = _userService.getAllUsers()
-                .FirstOrDefault(u => u.Username == userName && u.Password == password);
+
+                     .FirstOrDefault(u => u.Username == txt_userName.Text && u.Password == txt_Pass.Text);
+
 
             if (user != null)
             {
@@ -73,7 +76,7 @@ namespace InventoryManagementSystem.UI
 
         private void txt_userName_TextChanged(object sender, EventArgs e)
         {
-            // Handle username text change if needed
+
         }
     }
 }

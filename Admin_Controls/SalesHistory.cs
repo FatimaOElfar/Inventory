@@ -130,7 +130,22 @@ namespace InventoryManagementSystem.Admin_Controls
                 dgv_ShowData.Columns["Price"].DefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleRight;
             }
 
-            
+
+            // Conditional formatting for low stock quantity
+            //dgv_ShowData.CellFormatting += (sender, e) =>
+            //{
+            //    if (e.ColumnIndex == dgv_ShowData.Columns["StockQuantity"].Index && e.Value != null)
+            //    {
+            //        if (int.TryParse(e.Value.ToString(), out int stockQuantity))
+            //        {
+            //            if (stockQuantity < 10) // Highlight rows with low stock
+            //            {
+            //                e.CellStyle.BackColor = Color.LightCoral;
+            //                e.CellStyle.ForeColor = Color.White;
+            //            }
+            //        }
+            //    }
+            //};
         }
 
         private async void but_search_Click(object sender, EventArgs e)
