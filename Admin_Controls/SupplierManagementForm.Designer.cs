@@ -48,7 +48,7 @@
             txt_name.Location = new Point(211, 66);
             txt_name.Multiline = true;
             txt_name.Name = "txt_name";
-            txt_name.Size = new Size(388, 42);
+            txt_name.Size = new Size(246, 42);
             txt_name.TabIndex = 0;
             // 
             // txt_contact
@@ -57,7 +57,7 @@
             txt_contact.Location = new Point(211, 152);
             txt_contact.Multiline = true;
             txt_contact.Name = "txt_contact";
-            txt_contact.Size = new Size(388, 42);
+            txt_contact.Size = new Size(246, 42);
             txt_contact.TabIndex = 1;
             // 
             // txt_address
@@ -66,7 +66,7 @@
             txt_address.Location = new Point(211, 241);
             txt_address.Multiline = true;
             txt_address.Name = "txt_address";
-            txt_address.Size = new Size(388, 42);
+            txt_address.Size = new Size(246, 42);
             txt_address.TabIndex = 2;
             // 
             // label1
@@ -111,7 +111,7 @@
             lbl_GoBack.BackColor = Color.Transparent;
             lbl_GoBack.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_GoBack.ForeColor = SystemColors.HotTrack;
-            lbl_GoBack.Location = new Point(849, 272);
+            lbl_GoBack.Location = new Point(912, 318);
             lbl_GoBack.Name = "lbl_GoBack";
             lbl_GoBack.Size = new Size(83, 28);
             lbl_GoBack.TabIndex = 6;
@@ -125,7 +125,7 @@
             dgv_ShowData.Location = new Point(3, 363);
             dgv_ShowData.Name = "dgv_ShowData";
             dgv_ShowData.RowHeadersWidth = 51;
-            dgv_ShowData.Size = new Size(1183, 365);
+            dgv_ShowData.Size = new Size(1015, 302);
             dgv_ShowData.TabIndex = 7;
             dgv_ShowData.RowHeaderMouseDoubleClick += dgv_ShowData_RowHeaderMouseDoubleClick;
             // 
@@ -134,7 +134,7 @@
             btn_save.BackColor = Color.Green;
             btn_save.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_save.ForeColor = SystemColors.ButtonHighlight;
-            btn_save.Location = new Point(840, 55);
+            btn_save.Location = new Point(534, 66);
             btn_save.Name = "btn_save";
             btn_save.Size = new Size(120, 42);
             btn_save.TabIndex = 8;
@@ -147,7 +147,7 @@
             btn_edit.BackColor = Color.Chocolate;
             btn_edit.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_edit.ForeColor = SystemColors.ButtonHighlight;
-            btn_edit.Location = new Point(840, 113);
+            btn_edit.Location = new Point(534, 147);
             btn_edit.Name = "btn_edit";
             btn_edit.Size = new Size(120, 42);
             btn_edit.TabIndex = 9;
@@ -160,7 +160,7 @@
             btn_delete.BackColor = Color.DarkRed;
             btn_delete.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_delete.ForeColor = SystemColors.ButtonHighlight;
-            btn_delete.Location = new Point(840, 178);
+            btn_delete.Location = new Point(534, 236);
             btn_delete.Name = "btn_delete";
             btn_delete.Size = new Size(120, 42);
             btn_delete.TabIndex = 10;
@@ -168,7 +168,7 @@
             btn_delete.UseVisualStyleBackColor = false;
             btn_delete.Click += btn_delete_Click;
             // 
-            // SupplierManagementForm
+            // SupplierManagementFormcs
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -183,8 +183,8 @@
             Controls.Add(txt_address);
             Controls.Add(txt_contact);
             Controls.Add(txt_name);
-            Name = "SupplierManagementForm";
-            Size = new Size(1189, 743);
+            Name = "SupplierManagementFormcs";
+            Size = new Size(1021, 668);
             ((System.ComponentModel.ISupportInitialize)dgv_ShowData).EndInit();
             ResumeLayout(false);
             PerformLayout();

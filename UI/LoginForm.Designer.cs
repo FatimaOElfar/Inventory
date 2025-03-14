@@ -28,87 +28,88 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             txt_userName = new TextBox();
             txt_Pass = new TextBox();
+            lbl1 = new Label();
+            lbl2 = new Label();
             btn_login = new Button();
             label1 = new Label();
             btnExit_Click = new Button();
             chkShowPassword = new CheckBox();
             lblSignUp_Click = new Label();
             label2 = new Label();
-            panel1 = new Panel();
-            pictureBox2 = new PictureBox();
-            panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // txt_userName
             // 
-            txt_userName.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txt_userName.Location = new Point(93, 231);
-            txt_userName.Multiline = true;
+            txt_userName.Location = new Point(1194, 292);
             txt_userName.Name = "txt_userName";
-            txt_userName.PlaceholderText = "Your Name";
-            txt_userName.Size = new Size(317, 43);
+            txt_userName.PlaceholderText = "Your name";
+            txt_userName.Size = new Size(180, 27);
             txt_userName.TabIndex = 0;
-            txt_userName.TextChanged += txt_userName_TextChanged;
             // 
             // txt_Pass
             // 
-            txt_Pass.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txt_Pass.Location = new Point(93, 308);
-            txt_Pass.Multiline = true;
+            txt_Pass.Location = new Point(1194, 396);
             txt_Pass.Name = "txt_Pass";
-            txt_Pass.PlaceholderText = "Your Password";
-            txt_Pass.Size = new Size(317, 44);
+            txt_Pass.PlaceholderText = "Password";
+            txt_Pass.Size = new Size(180, 27);
             txt_Pass.TabIndex = 1;
+            // 
+            // lbl1
+            // 
+            lbl1.AutoSize = true;
+            lbl1.Location = new Point(1020, 292);
+            lbl1.Name = "lbl1";
+            lbl1.Size = new Size(78, 20);
+            lbl1.TabIndex = 2;
+            lbl1.Text = "UserName";
+            // 
+            // lbl2
+            // 
+            lbl2.AutoSize = true;
+            lbl2.Location = new Point(1028, 403);
+            lbl2.Name = "lbl2";
+            lbl2.Size = new Size(70, 20);
+            lbl2.TabIndex = 3;
+            lbl2.Text = "Password";
             // 
             // btn_login
             // 
-            btn_login.BackColor = Color.FromArgb(3, 68, 136);
-            btn_login.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_login.ForeColor = Color.White;
-            btn_login.Location = new Point(93, 430);
+            btn_login.Location = new Point(1152, 537);
             btn_login.Name = "btn_login";
-            btn_login.Size = new Size(317, 48);
+            btn_login.Size = new Size(209, 29);
             btn_login.TabIndex = 4;
             btn_login.Text = "Login";
-            btn_login.UseVisualStyleBackColor = false;
+            btn_login.UseVisualStyleBackColor = true;
             btn_login.Click += btn_login_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = SystemColors.ControlDarkDark;
-            label1.Location = new Point(120, 516);
+            label1.Location = new Point(1055, 599);
             label1.Name = "label1";
-            label1.Size = new Size(201, 23);
+            label1.Size = new Size(172, 20);
             label1.TabIndex = 6;
             label1.Text = "Don't Have an Account ?";
             // 
             // btnExit_Click
             // 
-            btnExit_Click.BackColor = Color.DarkRed;
-            btnExit_Click.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnExit_Click.Location = new Point(1482, 943);
+            btnExit_Click.Location = new Point(1378, 713);
             btnExit_Click.Name = "btnExit_Click";
-            btnExit_Click.Size = new Size(113, 44);
+            btnExit_Click.Size = new Size(94, 29);
             btnExit_Click.TabIndex = 19;
             btnExit_Click.Text = "Exit";
-            btnExit_Click.UseVisualStyleBackColor = false;
+            btnExit_Click.UseVisualStyleBackColor = true;
             btnExit_Click.Click += btnExit_Click_Click;
             // 
             // chkShowPassword
             // 
             chkShowPassword.AutoSize = true;
             chkShowPassword.CheckAlign = ContentAlignment.MiddleRight;
-            chkShowPassword.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            chkShowPassword.ForeColor = Color.FromArgb(3, 68, 136);
-            chkShowPassword.Location = new Point(274, 377);
+            chkShowPassword.Location = new Point(1242, 464);
             chkShowPassword.Name = "chkShowPassword";
-            chkShowPassword.Size = new Size(136, 24);
+            chkShowPassword.Size = new Size(132, 24);
             chkShowPassword.TabIndex = 20;
             chkShowPassword.Text = "Show Password";
             chkShowPassword.UseVisualStyleBackColor = true;
@@ -117,11 +118,10 @@
             // lblSignUp_Click
             // 
             lblSignUp_Click.AutoSize = true;
-            lblSignUp_Click.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblSignUp_Click.ForeColor = SystemColors.HotTrack;
-            lblSignUp_Click.Location = new Point(327, 516);
+            lblSignUp_Click.Location = new Point(1242, 599);
             lblSignUp_Click.Name = "lblSignUp_Click";
-            lblSignUp_Click.Size = new Size(65, 23);
+            lblSignUp_Click.Size = new Size(57, 20);
             lblSignUp_Click.TabIndex = 21;
             lblSignUp_Click.Text = "SignUp";
             lblSignUp_Click.Click += lblSignUp_Click_Click;
@@ -129,83 +129,47 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 30.2F, FontStyle.Bold);
-            label2.ForeColor = Color.FromArgb(3, 68, 136);
-            label2.Location = new Point(49, 77);
+            label2.Font = new Font("Segoe UI Semibold", 25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(1028, 90);
             label2.Name = "label2";
-            label2.Size = new Size(391, 59);
-            label2.Font = new Font("Century Schoolbook", 30.2F, FontStyle.Bold);
-            label2.ForeColor = Color.FromArgb(3, 68, 136);
-            label2.Location = new Point(49, 77);
-            label2.Name = "label2";
-            label2.Size = new Size(422, 60);
+            label2.Size = new Size(316, 57);
             label2.TabIndex = 23;
             label2.Text = "Welcome Back!";
-            // 
-            // panel1
-            // 
-            panel1.BackColor = Color.White;
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(lblSignUp_Click);
-            panel1.Controls.Add(chkShowPassword);
-            panel1.Controls.Add(txt_userName);
-            panel1.Controls.Add(btn_login);
-            panel1.Controls.Add(txt_Pass);
-            panel1.Location = new Point(272, 107);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1063, 686);
-            panel1.Location = new Point(262, 117);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1107, 771);
-            panel1.TabIndex = 24;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox2.Location = new Point(494, 0);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(567, 685);
-            pictureBox2.Size = new Size(610, 768);
-            pictureBox2.TabIndex = 25;
-            pictureBox2.TabStop = false;
             // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(3, 68, 136);
-            BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1550, 907);
-
-            ClientSize = new Size(1607, 999);
-            Controls.Add(panel1);
+            ClientSize = new Size(1484, 752);
+            Controls.Add(label2);
+            Controls.Add(lblSignUp_Click);
+            Controls.Add(chkShowPassword);
             Controls.Add(btnExit_Click);
-            DoubleBuffered = true;
-            ForeColor = Color.White;
+            Controls.Add(label1);
+            Controls.Add(btn_login);
+            Controls.Add(lbl2);
+            Controls.Add(lbl1);
+            Controls.Add(txt_Pass);
+            Controls.Add(txt_userName);
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
             Load += LoginForm_Load;
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private TextBox txt_userName;
         private TextBox txt_Pass;
+        private Label lbl1;
+        private Label lbl2;
         private Button btn_login;
         private Label label1;
         private Button btnExit_Click;
         private CheckBox chkShowPassword;
         private Label lblSignUp_Click;
         private Label label2;
-        private Panel panel1;
-        private PictureBox pictureBox2;
     }
 }

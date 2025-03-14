@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using InventoryManagementSystem.Data;
 using InventoryManagementSystem.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace InventoryManagementSystem.Services
 {
@@ -40,13 +39,5 @@ namespace InventoryManagementSystem.Services
             context.Sales.Remove(sale);
             context.SaveChanges();
         }
-
-        public async Task<List<Sale>> GetFilteredSales(string customerName, DateTime startDate, DateTime endDate)
-        {
-            return await context.Sales
-                .Where(s => s.CustomerName == customerName && s.SaleDate >= startDate && s.SaleDate <= endDate)
-                .ToListAsync();
-        }
     }
 }
-

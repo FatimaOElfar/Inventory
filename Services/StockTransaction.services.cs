@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using InventoryManagementSystem.Models;
+using InventoryManagementSystem.Data;
 namespace InventoryManagementSystem.Services
 {
     class StockTransactionService
@@ -37,5 +38,6 @@ namespace InventoryManagementSystem.Services
             context.StockTransactions.Remove(stockTransaction);
             context.SaveChanges();
         }
+
     }
 }

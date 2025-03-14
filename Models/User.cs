@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Models
 {
@@ -12,7 +16,6 @@ namespace InventoryManagementSystem.Models
         public string Email { get; set; }
         public string Role { get; set; } // Admin, Manager, Staff
 
-        public virtual List<Sale> Sales { get; set; } = new List<Sale>();
-
+        public virtual List<Sale> Sales { get; set; } = new List<Sale>(); 
     }
-} 
+}

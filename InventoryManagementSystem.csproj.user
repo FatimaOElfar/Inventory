@@ -1,37 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Admin_Controls\EditAccount.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\NewSale.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Update="Admin_Controls\ProductManagmentForm.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\ReportsControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\SalesHistory.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="Admin_Controls\SupplierManagementForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="Admin_Controls\Dashbord.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\StockTransaction.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\Userlist.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Update="Admin_Controls\UserManagement.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Update="UI\AdminMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\StaffMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\ManagerMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UI\LoginForm.cs">
@@ -43,16 +25,5 @@
     <Compile Update="UI\WelcomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Update="UI\AdminMainForm.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Update="UI\LoginForm.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Update="UI\WelcomeForm.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
   </ItemGroup>
 </Project>
