@@ -4119,11 +4119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project-inven\\Inventory\\InventoryManagementSystem.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj",
       "projectName": "InventoryManagementSystem",
-      "projectPath": "D:\\project-inven\\Inventory\\InventoryManagementSystem.csproj",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\project-inven\\Inventory\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Downloads\\Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4207,13 +4207,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\project-inven\\Inventory\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -1,952 +1,164 @@
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Azure.Core.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Azure.Identity.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Castle.Core.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Dapper.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Humanizer.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.ClientModel.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Formats.Asn1.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Memory.Data.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Text.Json.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.Form1.resources
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-E:\ITI Scholarship\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Azure.Core.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Azure.Identity.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Castle.Core.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Dapper.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Humanizer.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.ClientModel.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\System.Memory.Data.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Azure.Core.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Azure.Identity.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Castle.Core.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Dapper.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Humanizer.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.ClientModel.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Formats.Asn1.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Memory.Data.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\System.Text.Json.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\New folder (5)\Inventory\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-E:\ITI Scholarship\New folder (5)\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
-D:\Inventory Management System Project (2)\Inventory Management System Project\InventoryManagementSystem\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Azure.Core.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Azure.Identity.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Castle.Core.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Dapper.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Humanizer.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.ClientModel.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Formats.Asn1.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Memory.Data.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\System.Text.Json.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.AdminMainForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.ManagerMainForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.StaffMainForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Properties.Resources.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Ucontrol_Products.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Azure.Core.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Azure.Identity.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Castle.Core.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Dapper.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Humanizer.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.ClientModel.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Formats.Asn1.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Memory.Data.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\System.Text.Json.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Ucontrol_Products.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Properties.Resources.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.AdminMainForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.ManagerMainForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.StaffMainForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-E:\ITI Scholarship\Project Clone\V9\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
-<<<<<<< HEAD
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Azure.Core.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Azure.Identity.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Castle.Core.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Dapper.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Humanizer.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.ClientModel.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Composition.Convention.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\System.Memory.Data.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\project-inven\Inventory\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Ucontrol_Products.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Properties.Resources.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.AdminMainForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.ManagerMainForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.StaffMainForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SalesHistory.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.NewSale.resources
-=======
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.UserManagement.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.Dashbord.resources
-E:\ITI_Intake45_PD\.Net_Track\LINQ & EF\inventoryProject\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockManagement.resources
->>>>>>> 65887f8c368cdd244360d78f1783f417f8eaf55b
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.Dashbord.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockManagement.resources
-D:\project-inven\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.UserManagement.resources
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.exe
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.deps.json
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.runtimeconfig.json
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\InventoryManagementSystem.pdb
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Castle.Core.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Dapper.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Humanizer.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Bcl.Cryptography.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Build.Locator.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\Mono.TextTemplating.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Composition.AttributedModel.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Composition.Convention.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Composition.Hosting.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Composition.Runtime.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Composition.TypedParts.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\Inventory\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.Dashbord.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.NewSale.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Ucontrol_Products.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SalesHistory.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.StockManagement.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.SupplierManagementForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Admin_Controls.UserManagement.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.Properties.Resources.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.AdminMainForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.LoginForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.ManagerMainForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.SignUpForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.UI.StaffMainForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.WelcomeForm.resources
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.GenerateResource.cache
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfoInputs.cache
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.AssemblyInfo.cs
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.sourcelink.json
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\Inventor.EBF2E7CF.Up2Date
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.dll
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\refint\InventoryManagementSystem.dll
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.pdb
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\InventoryManagementSystem.genruntimeconfig.cache
+C:\Users\DELL\Downloads\Inventory\obj\Debug\net9.0-windows\ref\InventoryManagementSystem.dll
