@@ -13,13 +13,10 @@ namespace InventoryManagementSystem.UI
     public partial class StaffMainForm : Form
     {
         private string _role;
-        private int _id;
-        public StaffMainForm( string role, int id)
+        public StaffMainForm(string role)
         {
             InitializeComponent();
             _role = role;
-            _id = id;
-
         }
     }
 }

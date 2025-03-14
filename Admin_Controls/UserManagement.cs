@@ -263,12 +263,20 @@ namespace InventoryManagementSystem.Admin_Controls
 
                 if (result == DialogResult.Yes)
                 {
-                    _service.deleteUser(_selectedUserId);
+                    var user = _service.getUserByID(_selectedUserId);
+                    if (user != null)
+                    {
+                        _service.deleteUser(user);
 
-                    MessageBox.Show("User deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    LoadUsers();  // Refresh DataGridView
-                    ClearFields();
-                    _selectedUserId = -1; // Reset selection
+                        MessageBox.Show("User deleted successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        LoadUsers();  // Refresh DataGridView
+                        ClearFields();
+                        _selectedUserId = -1; // Reset selection
+                    }
+                    else
+                    {
+                        MessageBox.Show("User not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
             }
             catch (Exception ex)

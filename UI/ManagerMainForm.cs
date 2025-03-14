@@ -13,12 +13,10 @@ namespace InventoryManagementSystem.UI
     public partial class ManagerMainForm : Form
     {
         private string _role;
-        private int _id;
-        public ManagerMainForm(string role,int id)
+        public ManagerMainForm(string role)
         {
             InitializeComponent();
             _role = role;
-            _id = id;
         }
     }
 }

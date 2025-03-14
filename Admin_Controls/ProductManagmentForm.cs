@@ -45,7 +45,7 @@ namespace InventoryManagementSystem
                 p.Price,
                 p.StockQuantity,
                 p.SupplierId,
-                Supplier = p.Supplier?.Name
+                Supplier = p.Supplier?.Name // Ensure the supplier's name is displayed
             }).ToList();
         }
 
@@ -53,13 +53,12 @@ namespace InventoryManagementSystem
         {
             using (var context = new InventoryDbContext())
             {
-                var suppliers = context.Suppliers
-                                       .Select(s => new { s.Id, s.Name })
-                                       .ToList();
-                cb_supplier.DataSource = suppliers;
+                cb_supplier.DataSource = context.Suppliers
+                                                .Select(s => new { s.Id, s.Name })
+                                                .ToList();
                 cb_supplier.DisplayMember = "Name";
                 cb_supplier.ValueMember = "Id";
-                cb_supplier.SelectedIndex = suppliers.Any() ? -1 : 0; // Ensure SelectedIndex is set appropriately
+                cb_supplier.SelectedIndex = -1;
             }
         }
 
@@ -74,7 +73,7 @@ namespace InventoryManagementSystem
                     Name = txt_name_search.Text,
                     Price = decimal.Parse(txt_price.Text),
                     StockQuantity = int.Parse(txt_quantity.Text),
-                    SupplierId = cb_supplier.SelectedValue != null ? (int)cb_supplier.SelectedValue : 0,
+                    SupplierId = (int)cb_supplier.SelectedValue,
                     Category = txt_category.Text // Use the text input for category
                 };
 
@@ -89,47 +88,58 @@ namespace InventoryManagementSystem
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void btn_Edit_Click_1(object sender, EventArgs e)
         {
             try
             {
+                // Validate if a product is selected
                 if (_selectedProductId == -1)
                 {
                     MessageBox.Show("Please select a product to edit!", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                if (string.IsNullOrWhiteSpace(txt_name_search.Text) || string.IsNullOrWhiteSpace(txt_price.Text) ||
-                    string.IsNullOrWhiteSpace(txt_quantity.Text) || string.IsNullOrWhiteSpace(txt_category.Text) ||
-                    cb_supplier.SelectedValue == null)
+                // Validate input fields
+                if (!ValidateInputs()) return;
+
+                using (var context = new InventoryDbContext())
                 {
-                    MessageBox.Show("All fields are required.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
+                    // Find the existing product in the database
+                    var existingProduct = context.Products.Find(_selectedProductId);
+
+                    if (existingProduct == null)
+                    {
+                        MessageBox.Show("Product not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    // Update the existing product with new values
+                    existingProduct.Name = txt_name_search.Text;
+                    existingProduct.Price = decimal.Parse(txt_price.Text);
+                    existingProduct.StockQuantity = int.Parse(txt_quantity.Text);
+                    existingProduct.SupplierId = (int)cb_supplier.SelectedValue;
+                    existingProduct.Category = txt_category.Text;
+
+                    // Save changes to the database
+                    context.SaveChanges();
+
+                    MessageBox.Show("Product updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Refresh the DataGridView
+                    LoadProducts();
+
+                    // Clear the input fields
+                    ClearFields();
+                    _selectedProductId = -1;
                 }
-
-                var updatedProduct = new Product
-                {
-                    Id = _selectedProductId,
-                    Name = txt_name_search.Text,
-                    Price = decimal.Parse(txt_price.Text),
-                    StockQuantity = int.Parse(txt_quantity.Text),
-                    SupplierId = cb_supplier.SelectedValue != null ? (int)cb_supplier.SelectedValue : 0,
-                    Category = txt_category.Text
-                };
-
-                _service.updateProduct(updatedProduct); // Use _service instead of _productService
-
-                MessageBox.Show("Product updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                LoadProducts();
-                ClearFields();
-                _selectedProductId = -1;
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
         private void btn_remove_Click(object sender, EventArgs e)
         {
             if (_selectedProductId == -1)
@@ -151,6 +161,7 @@ namespace InventoryManagementSystem
                 _selectedProductId = -1;
             }
         }
+
         private void dgv_ShowData_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -160,24 +171,36 @@ namespace InventoryManagementSystem
 
                 using (var context = new InventoryDbContext())
                 {
+                    // Fetch the product without tracking
                     var product = context.Products
-                                         .AsNoTracking()
-                                         .Include(p => p.Supplier)
-                                         .FirstOrDefault(p => p.Id == _selectedProductId);
+                                        .AsNoTracking()
+                                        .Include(p => p.Supplier) 
+                                        .FirstOrDefault(p => p.Id == _selectedProductId);
 
                     if (product != null)
                     {
-                        txt_name_search.Text = product.Name ?? string.Empty;
+                        txt_name_search.Text = product.Name;
                         txt_price.Text = product.Price.ToString();
                         txt_quantity.Text = product.StockQuantity.ToString();
                         cb_supplier.SelectedValue = product.SupplierId;
-                        txt_category.Text = product.Category ?? string.Empty;
+                        txt_category.Text = product.Category;
                     }
                 }
             }
         }
 
         //refersh
+        private void txt_search_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txt_name_search.Text))
+            {
+                LoadProducts();
+            }
+            else
+            {
+                SearchProducts();
+            }
+        }
 
         private void SearchProducts()
         {
@@ -188,7 +211,6 @@ namespace InventoryManagementSystem
             dgv_ShowData.DataSource = FormatProducts(filteredData);
         }
 
-        //validete all input are enter
         private bool ValidateInputs()
         {
             if (string.IsNullOrWhiteSpace(txt_name_search.Text))
@@ -218,39 +240,31 @@ namespace InventoryManagementSystem
             return true;
         }
 
-        //clear fileds
         private void ClearFields()
         {
             txt_name_search.Clear();
             txt_price.Clear();
             txt_quantity.Clear();
             cb_supplier.SelectedIndex = -1;
-            txt_category.Clear();
-            LoadProducts();
+            txt_category.Clear(); // Clear the category text input
         }
 
         //search
         private void search_picture_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txt_name_search.Text))
-            {
-                LoadProducts();
-            }
-            else
-            {
-
-                SearchProducts();
-            }
+            SearchProducts();
         }
-        private void btn_clear_Click(object sender, EventArgs e)
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            ClearFields();
+            LoadProducts();
+            txt_name_search.Clear();
         }
-
         private void ApplyGridViewStyle()
         {
-
+          
             dgv_ShowData.Font = new Font("Segoe UI", 10);
+
 
             dgv_ShowData.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
             dgv_ShowData.AlternatingRowsDefaultCellStyle.ForeColor = Color.Black;
@@ -317,8 +331,5 @@ namespace InventoryManagementSystem
                 }
             };
         }
-
-        
-      
     }
 }
