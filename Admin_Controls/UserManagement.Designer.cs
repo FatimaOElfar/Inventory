@@ -1,4 +1,6 @@
-﻿namespace InventoryManagementSystem.Admin_Controls
+﻿
+
+namespace InventoryManagementSystem.Admin_Controls
 {
     partial class UserManagement
     {
@@ -28,7 +30,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgv_ShowData = new DataGridView();
             btn_adduser = new Button();
             label3 = new Label();
             label2 = new Label();
@@ -46,29 +47,19 @@
             label5 = new Label();
             label6 = new Label();
             btn_clear = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgv_ShowData).BeginInit();
+            dgv_ShowData = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)age).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgv_ShowData).BeginInit();
             SuspendLayout();
-            // 
-            // dgv_ShowData
-            // 
-            dgv_ShowData.BackgroundColor = Color.RosyBrown;
-            dgv_ShowData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_ShowData.Location = new Point(469, 67);
-            dgv_ShowData.Name = "dgv_ShowData";
-            dgv_ShowData.RowHeadersWidth = 51;
-            dgv_ShowData.Size = new Size(801, 660);
-            dgv_ShowData.TabIndex = 1;
-            dgv_ShowData.RowHeaderMouseDoubleClick += dgv_ShowData_RowHeaderMouseDoubleClick;
             // 
             // btn_adduser
             // 
-            btn_adduser.BackColor = SystemColors.ActiveCaption;
+            btn_adduser.BackColor = Color.FromArgb(3, 68, 136);
             btn_adduser.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_adduser.ForeColor = SystemColors.ActiveCaptionText;
-            btn_adduser.Location = new Point(3, 630);
+            btn_adduser.ForeColor = Color.White;
+            btn_adduser.Location = new Point(42, 698);
             btn_adduser.Name = "btn_adduser";
-            btn_adduser.Size = new Size(131, 45);
+            btn_adduser.Size = new Size(157, 45);
             btn_adduser.TabIndex = 3;
             btn_adduser.Text = "Create User";
             btn_adduser.UseVisualStyleBackColor = false;
@@ -80,7 +71,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = SystemColors.HotTrack;
-            label3.Location = new Point(26, 309);
+            label3.Location = new Point(26, 395);
             label3.Name = "label3";
             label3.Size = new Size(82, 28);
             label3.TabIndex = 11;
@@ -92,7 +83,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.HotTrack;
-            label2.Location = new Point(26, 423);
+            label2.Location = new Point(29, 492);
             label2.Name = "label2";
             label2.Size = new Size(47, 28);
             label2.TabIndex = 10;
@@ -104,7 +95,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = SystemColors.HotTrack;
-            label1.Location = new Point(26, 0);
+            label1.Location = new Point(26, 104);
             label1.Name = "label1";
             label1.Size = new Size(108, 28);
             label1.TabIndex = 9;
@@ -113,24 +104,26 @@
             // txt_address
             // 
             txt_address.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txt_address.Location = new Point(26, 362);
+            txt_address.Location = new Point(29, 447);
             txt_address.Multiline = true;
             txt_address.Name = "txt_address";
+            txt_address.PlaceholderText = "Your Address";
             txt_address.Size = new Size(420, 42);
             txt_address.TabIndex = 8;
             // 
             // txt_name
             // 
             txt_name.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txt_name.Location = new Point(26, 44);
+            txt_name.Location = new Point(26, 138);
             txt_name.Multiline = true;
             txt_name.Name = "txt_name";
+            txt_name.PlaceholderText = "Your Name";
             txt_name.Size = new Size(420, 42);
             txt_name.TabIndex = 6;
             // 
             // age
             // 
-            age.Location = new Point(26, 474);
+            age.Location = new Point(26, 549);
             age.Name = "age";
             age.Size = new Size(420, 27);
             age.TabIndex = 12;
@@ -141,7 +134,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label4.ForeColor = SystemColors.HotTrack;
-            label4.Location = new Point(26, 522);
+            label4.Location = new Point(26, 593);
             label4.Name = "label4";
             label4.Size = new Size(50, 28);
             label4.TabIndex = 13;
@@ -150,19 +143,19 @@
             // cb_role
             // 
             cb_role.FormattingEnabled = true;
-            cb_role.Location = new Point(26, 572);
+            cb_role.Location = new Point(26, 646);
             cb_role.Name = "cb_role";
             cb_role.Size = new Size(420, 28);
             cb_role.TabIndex = 14;
             // 
             // btn_updateUser
             // 
-            btn_updateUser.BackColor = SystemColors.ActiveCaption;
+            btn_updateUser.BackColor = Color.FromArgb(3, 68, 136);
             btn_updateUser.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_updateUser.ForeColor = SystemColors.ActiveCaptionText;
-            btn_updateUser.Location = new Point(157, 630);
+            btn_updateUser.ForeColor = Color.White;
+            btn_updateUser.Location = new Point(232, 698);
             btn_updateUser.Name = "btn_updateUser";
-            btn_updateUser.Size = new Size(131, 45);
+            btn_updateUser.Size = new Size(149, 45);
             btn_updateUser.TabIndex = 15;
             btn_updateUser.Text = "Edit User";
             btn_updateUser.UseVisualStyleBackColor = false;
@@ -170,12 +163,12 @@
             // 
             // btn_remove
             // 
-            btn_remove.BackColor = Color.Red;
+            btn_remove.BackColor = Color.Firebrick;
             btn_remove.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_remove.ForeColor = SystemColors.ActiveCaptionText;
-            btn_remove.Location = new Point(136, 707);
+            btn_remove.ForeColor = Color.White;
+            btn_remove.Location = new Point(240, 785);
             btn_remove.Name = "btn_remove";
-            btn_remove.Size = new Size(152, 45);
+            btn_remove.Size = new Size(141, 45);
             btn_remove.TabIndex = 16;
             btn_remove.Text = "Remove User";
             btn_remove.UseVisualStyleBackColor = false;
@@ -187,7 +180,7 @@
             paas.BackColor = Color.Transparent;
             paas.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             paas.ForeColor = SystemColors.HotTrack;
-            paas.Location = new Point(26, 104);
+            paas.Location = new Point(26, 197);
             paas.Name = "paas";
             paas.Size = new Size(93, 28);
             paas.TabIndex = 17;
@@ -196,18 +189,20 @@
             // txt_pass
             // 
             txt_pass.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txt_pass.Location = new Point(26, 150);
+            txt_pass.Location = new Point(26, 228);
             txt_pass.Multiline = true;
             txt_pass.Name = "txt_pass";
+            txt_pass.PlaceholderText = "Your Password";
             txt_pass.Size = new Size(420, 42);
             txt_pass.TabIndex = 18;
             // 
             // txt_email
             // 
             txt_email.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txt_email.Location = new Point(26, 251);
+            txt_email.Location = new Point(29, 339);
             txt_email.Multiline = true;
             txt_email.Name = "txt_email";
+            txt_email.PlaceholderText = "Your Email";
             txt_email.Size = new Size(420, 42);
             txt_email.TabIndex = 20;
             // 
@@ -217,7 +212,7 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = SystemColors.HotTrack;
-            label5.Location = new Point(26, 205);
+            label5.Location = new Point(29, 296);
             label5.Name = "label5";
             label5.Size = new Size(59, 28);
             label5.TabIndex = 19;
@@ -226,31 +221,44 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 20F);
+            label6.Font = new Font("Segoe UI Semibold", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = SystemColors.HotTrack;
-            label6.Location = new Point(773, 0);
+            label6.Location = new Point(0, 0);
             label6.Name = "label6";
-            label6.Size = new Size(146, 46);
+            label6.Size = new Size(176, 54);
             label6.TabIndex = 21;
             label6.Text = "User List";
             // 
             // btn_clear
             // 
-            btn_clear.BackColor = SystemColors.ActiveCaption;
+            btn_clear.BackColor = Color.FromArgb(3, 68, 136);
             btn_clear.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btn_clear.ForeColor = SystemColors.ActiveCaptionText;
-            btn_clear.Location = new Point(328, 630);
+            btn_clear.ForeColor = Color.White;
+            btn_clear.Location = new Point(42, 785);
             btn_clear.Name = "btn_clear";
-            btn_clear.Size = new Size(135, 45);
+            btn_clear.Size = new Size(161, 45);
             btn_clear.TabIndex = 22;
             btn_clear.Text = "Clear";
             btn_clear.UseVisualStyleBackColor = false;
             btn_clear.Click += btn_clear_Click;
             // 
+            // dgv_ShowData
+            // 
+            dgv_ShowData.BackgroundColor = Color.FromArgb(3, 68, 136);
+            dgv_ShowData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgv_ShowData.Location = new Point(500, 138);
+            dgv_ShowData.Name = "dgv_ShowData";
+            dgv_ShowData.RowHeadersWidth = 51;
+            dgv_ShowData.Size = new Size(831, 729);
+            dgv_ShowData.TabIndex = 23;
+            dgv_ShowData.RowHeaderMouseDoubleClick += dgv_ShowData_RowHeaderMouseDoubleClick;
+            // 
             // UserManagement
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            Controls.Add(dgv_ShowData);
             Controls.Add(btn_clear);
             Controls.Add(label6);
             Controls.Add(txt_email);
@@ -268,22 +276,51 @@
             Controls.Add(txt_address);
             Controls.Add(txt_name);
             Controls.Add(btn_adduser);
-            Controls.Add(dgv_ShowData);
             Name = "UserManagement";
-            Size = new Size(1273, 743);
-            ((System.ComponentModel.ISupportInitialize)dgv_ShowData).EndInit();
+            Size = new Size(1359, 843);
             ((System.ComponentModel.ISupportInitialize)age).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgv_ShowData).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
-        #endregion
+        // Remove the Equals and GetHashCode overrides to fix ENC0023 error
+        // public override bool Equals(object obj)
+        // {
+        //     if (obj is UserManagement management)
+        //     {
+        //         return EqualityComparer<TextBox>.Default.Equals(txt_address, management.txt_address);
+        //     }
+        //     return false;
+        // }
 
-        private DataGridView dgv_ShowData;
+        // public override int GetHashCode()
+        // {
+        //     return HashCode.Combine(txt_address);
+        // }
+
+        public new int GetHashCode()
+        {
+            return HashCode.Combine(txt_address);
+        }
+
+        #endregion
         private Button btn_adduser;
         private Label label3;
         private Label label2;
         private Label label1;
+
+        public UserManagement(TextBox txt_address, TextBox txt_name, NumericUpDown age
+            , TextBox txt_pass, TextBox txt_email, ComboBox cb_role)
+        {
+            this.txt_address = txt_address;
+            this.txt_name = txt_name;
+            this.age = age;
+            this.txt_pass = txt_pass;
+            this.txt_email = txt_email;
+            this.cb_role = cb_role;
+        }
+
         private TextBox txt_address;
         private TextBox txt_name;
         private NumericUpDown age;
@@ -297,5 +334,6 @@
         private TextBox txt_email;
         private Label label6;
         private Button btn_clear;
+        private DataGridView dgv_ShowData;
     }
 }

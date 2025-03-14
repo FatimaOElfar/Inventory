@@ -20,11 +20,12 @@ namespace InventoryManagementSystem.Admin_Controls
         private UserService _service;
         private string _role;
         private int _selectedUserId;
-
+        
         public UserManagement(string role)
         {
             InitializeComponent();
             this._role = role;
+           
             _service = new UserService();
             LoadUsers();
             cb_role.Items.AddRange(new string[] { "Admin", "Manager", "Staff" });
@@ -35,8 +36,13 @@ namespace InventoryManagementSystem.Admin_Controls
             dgv_ShowData.DataSource = null;
             var users = _service.getAllUsers();
             dgv_ShowData.DataSource = users;
+            if (dgv_ShowData.Columns["Password"] != null)
+            {
+                dgv_ShowData.Columns["Password"].Visible = false;
+            }
             ApplyGridViewStyle();
         }
+
 
         private void btn_adduser_Click(object sender, EventArgs e)
         {
@@ -212,41 +218,6 @@ namespace InventoryManagementSystem.Admin_Controls
         }
 
 
-        private void dgv_ShowData_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            if (e.RowIndex >= 0)
-            {
-                var row = dgv_ShowData.Rows[e.RowIndex];
-                _selectedUserId = Convert.ToInt32(row.Cells["Id"].Value);
-
-                using (var context = new InventoryDbContext())
-                {
-                    var user = context.Users.AsNoTracking()
-                                      .FirstOrDefault(u => u.Id == _selectedUserId);
-
-                    if (user != null)
-                    {
-                        txt_name.Text = user.Username ?? string.Empty;
-                        txt_pass.Text = user.Password ?? string.Empty;
-                        txt_address.Text = user.Address ?? string.Empty;
-                        txt_email.Text = user.Email ?? string.Empty;
-
-                        // Ensure age is within a valid range
-                        age.Value = user.Age >= age.Minimum && user.Age <= age.Maximum ? user.Age : age.Minimum;
-
-                        // Ensure role exists in ComboBox before setting it
-                        if (cb_role.Items.Contains(user.Role))
-                        {
-                            cb_role.SelectedItem = user.Role;
-                        }
-                        else
-                        {
-                            cb_role.SelectedIndex = -1; // Reset selection if role is invalid
-                        }
-                    }
-                }
-            }
-        }
 
         private void btn_remove_Click(object sender, EventArgs e)
         {
@@ -281,5 +252,44 @@ namespace InventoryManagementSystem.Admin_Controls
         {
             ClearFields();
         }
+
+        private void dgv_ShowData_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                var row = dgv_ShowData.Rows[e.RowIndex];
+                _selectedUserId = Convert.ToInt32(row.Cells["Id"].Value);
+
+                using (var context = new InventoryDbContext())
+                {
+                    var user = context.Users.AsNoTracking()
+                                      .FirstOrDefault(u => u.Id == _selectedUserId);
+
+                    if (user != null)
+                    {
+                        txt_name.Text = user.Username ?? string.Empty;
+                        txt_pass.Text = user.Password ?? string.Empty;
+                        txt_address.Text = user.Address ?? string.Empty;
+                        txt_email.Text = user.Email ?? string.Empty;
+
+                        // Ensure age is within a valid range
+                        age.Value = user.Age >= age.Minimum && user.Age <= age.Maximum ? user.Age : age.Minimum;
+
+                        // Ensure role exists in ComboBox before setting it
+                        if (cb_role.Items.Contains(user.Role))
+                        {
+                            cb_role.SelectedItem = user.Role;
+                        }
+                        else
+                        {
+                            cb_role.SelectedIndex = -1; // Reset selection if role is invalid
+                        }
+                    }
+                }
+            }
+
+        }
+
     }
 }
+
