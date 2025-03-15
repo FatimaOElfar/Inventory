@@ -32,8 +32,8 @@
             txt_nameSearch = new TextBox();
             dtpStartDate = new DateTimePicker();
             dtpEndDate = new DateTimePicker();
-            but_search = new Button();
             lblnewSale_Click = new Label();
+            la_search = new Label();
             ((System.ComponentModel.ISupportInitialize)dgv_ShowData).BeginInit();
             SuspendLayout();
             // 
@@ -41,27 +41,27 @@
             // 
             dgv_ShowData.BackgroundColor = Color.RosyBrown;
             dgv_ShowData.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgv_ShowData.Location = new Point(1, 108);
+            dgv_ShowData.Location = new Point(28, 125);
             dgv_ShowData.Margin = new Padding(3, 2, 3, 2);
             dgv_ShowData.Name = "dgv_ShowData";
             dgv_ShowData.RowHeadersWidth = 51;
-            dgv_ShowData.Size = new Size(812, 347);
+            dgv_ShowData.Size = new Size(1000, 466);
             dgv_ShowData.TabIndex = 1;
             // 
             // txt_nameSearch
             // 
             txt_nameSearch.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txt_nameSearch.Location = new Point(182, 76);
+            txt_nameSearch.Location = new Point(264, 79);
             txt_nameSearch.Margin = new Padding(3, 2, 3, 2);
             txt_nameSearch.Multiline = true;
             txt_nameSearch.Name = "txt_nameSearch";
             txt_nameSearch.PlaceholderText = "Search by Name";
-            txt_nameSearch.Size = new Size(152, 21);
+            txt_nameSearch.Size = new Size(167, 24);
             txt_nameSearch.TabIndex = 2;
             // 
             // dtpStartDate
             // 
-            dtpStartDate.Location = new Point(355, 76);
+            dtpStartDate.Location = new Point(477, 79);
             dtpStartDate.Margin = new Padding(3, 2, 3, 2);
             dtpStartDate.Name = "dtpStartDate";
             dtpStartDate.Size = new Size(165, 22);
@@ -70,25 +70,11 @@
             // 
             // dtpEndDate
             // 
-            dtpEndDate.Location = new Point(556, 76);
+            dtpEndDate.Location = new Point(672, 79);
             dtpEndDate.Margin = new Padding(3, 2, 3, 2);
             dtpEndDate.Name = "dtpEndDate";
             dtpEndDate.Size = new Size(165, 22);
             dtpEndDate.TabIndex = 4;
-            // 
-            // but_search
-            // 
-            but_search.BackColor = SystemColors.Highlight;
-            but_search.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            but_search.ForeColor = SystemColors.ButtonHighlight;
-            but_search.Location = new Point(735, 67);
-            but_search.Margin = new Padding(3, 2, 3, 2);
-            but_search.Name = "but_search";
-            but_search.Size = new Size(52, 30);
-            but_search.TabIndex = 5;
-            but_search.Text = "GO";
-            but_search.UseVisualStyleBackColor = false;
-            but_search.Click += but_search_Click;
             // 
             // lblnewSale_Click
             // 
@@ -103,12 +89,25 @@
             lblnewSale_Click.TextAlign = ContentAlignment.MiddleCenter;
             lblnewSale_Click.Click += lblnewSale_Click_Click;
             // 
+            // la_search
+            // 
+            la_search.BackColor = SystemColors.Highlight;
+            la_search.Font = new Font("Segoe UI Semibold", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            la_search.ForeColor = SystemColors.HighlightText;
+            la_search.Location = new Point(902, 76);
+            la_search.Name = "la_search";
+            la_search.Size = new Size(89, 25);
+            la_search.TabIndex = 24;
+            la_search.Text = "Search";
+            la_search.TextAlign = ContentAlignment.MiddleCenter;
+            la_search.Click += la_search_Click_1;
+            // 
             // SalesHistory
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(la_search);
             Controls.Add(lblnewSale_Click);
-            Controls.Add(but_search);
             Controls.Add(dtpEndDate);
             Controls.Add(dtpStartDate);
             Controls.Add(txt_nameSearch);
@@ -116,7 +115,7 @@
             Font = new Font("Segoe UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(3, 2, 3, 2);
             Name = "SalesHistory";
-            Size = new Size(823, 486);
+            Size = new Size(1059, 606);
             ((System.ComponentModel.ISupportInitialize)dgv_ShowData).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -128,7 +127,7 @@
         private TextBox txt_nameSearch;
         private DateTimePicker dtpStartDate;
         private DateTimePicker dtpEndDate;
-        private Button but_search;
         private Label lblnewSale_Click;
+        private Label la_search;
     }
 }

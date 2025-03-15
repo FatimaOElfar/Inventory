@@ -2,23 +2,7 @@
 {
     partial class NewSale
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        // ... existing code ...
 
         #region Windows Form Designer generated code
 
@@ -28,6 +12,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            //System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ucontrol_Products));
+
             la = new Label();
             txt_cus = new TextBox();
             dataGridView1 = new DataGridView();
@@ -81,26 +68,29 @@
             // 
             // NewSale
             // 
-            //AutoScaleDimensions = new SizeF(7F, 15F);
-            //AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(965, 462);
-            Controls.Add(but_saveSale);
-            Controls.Add(dataGridView1);
-            Controls.Add(txt_cus);
-            Controls.Add(la);
-            Name = "NewSale";
-            Text = "NewSale";
-            Resize += NewSale_Resize;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(965, 462);
+            this.Controls.Add(but_saveSale);
+            this.Controls.Add(dataGridView1);
+            this.Controls.Add(txt_cus);
+            this.Controls.Add(la);
+            this.Name = "NewSale";
+            this.Text = "NewSale";
+            this.Resize += NewSale_Resize;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
 
+        private System.ComponentModel.IContainer components;
         private Label la;
         private TextBox txt_cus;
         private DataGridView dataGridView1;
         private Button but_saveSale;
+        private System.Drawing.SizeF AutoScaleDimensions;
+        private System.Windows.Forms.AutoScaleMode AutoScaleMode;
     }
 }

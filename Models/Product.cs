@@ -18,5 +18,6 @@ namespace InventoryManagementSystem.Models
         public virtual Supplier Supplier { get; set; } = new Supplier();
         public virtual List<Sale> Sales { get; set; } = new List<Sale>();
         public virtual List<StockTransaction> StockTransactions { get; set; } = new List<StockTransaction>();
+        //public string QRCode { get; set; }
     }
 }

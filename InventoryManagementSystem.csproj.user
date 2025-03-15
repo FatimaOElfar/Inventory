@@ -7,6 +7,9 @@
     <Compile Update="Admin_Controls\NewSale.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="Admin_Controls\NewSales.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Update="Admin_Controls\ProductManagmentForm.cs">
       <SubType>UserControl</SubType>
     </Compile>

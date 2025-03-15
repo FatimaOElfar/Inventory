@@ -45,9 +45,10 @@
             btnLogin_Click.FlatStyle = FlatStyle.Flat;
             btnLogin_Click.Font = new Font("Microsoft Sans Serif", 13F, FontStyle.Bold);
             btnLogin_Click.ForeColor = Color.FromArgb(3, 68, 136);
-            btnLogin_Click.Location = new Point(89, 457);
+            btnLogin_Click.Location = new Point(12, 298);
+            btnLogin_Click.Margin = new Padding(3, 2, 3, 2);
             btnLogin_Click.Name = "btnLogin_Click";
-            btnLogin_Click.Size = new Size(170, 61);
+            btnLogin_Click.Size = new Size(149, 46);
             btnLogin_Click.TabIndex = 1;
             btnLogin_Click.Text = "Login";
             btnLogin_Click.UseVisualStyleBackColor = false;
@@ -59,9 +60,10 @@
             btnSignUp_Click.FlatStyle = FlatStyle.Flat;
             btnSignUp_Click.Font = new Font("Microsoft Sans Serif", 13F, FontStyle.Bold);
             btnSignUp_Click.ForeColor = Color.FromArgb(3, 68, 136);
-            btnSignUp_Click.Location = new Point(345, 457);
+            btnSignUp_Click.Location = new Point(233, 298);
+            btnSignUp_Click.Margin = new Padding(3, 2, 3, 2);
             btnSignUp_Click.Name = "btnSignUp_Click";
-            btnSignUp_Click.Size = new Size(174, 61);
+            btnSignUp_Click.Size = new Size(152, 46);
             btnSignUp_Click.TabIndex = 2;
             btnSignUp_Click.Text = "SignUp";
             btnSignUp_Click.UseVisualStyleBackColor = false;
@@ -71,13 +73,13 @@
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Location = new Point(1508, 27);
+            pictureBox1.Location = new Point(1320, 20);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(39, 40);
+            pictureBox1.Size = new Size(34, 30);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
             // 
             // label3
             // 
@@ -85,44 +87,42 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Microsoft Sans Serif", 20F, FontStyle.Bold);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(24, 145);
+            label3.Location = new Point(21, 109);
             label3.Name = "label3";
-            label3.Size = new Size(511, 39);
+            label3.Size = new Size(414, 31);
             label3.TabIndex = 6;
             label3.Text = "Welcome to our Inventory App!";
-            label3.Click += label3_Click;
             // 
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Dock = DockStyle.Right;
-            pictureBox2.Location = new Point(669, 0);
+            pictureBox2.Location = new Point(428, 0);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(881, 907);
+            pictureBox2.Size = new Size(771, 562);
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
             // 
             // label2
             // 
-            label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(24, 264);
+            label2.Location = new Point(21, 198);
             label2.Name = "label2";
-            label2.Size = new Size(639, 58);
+            label2.Size = new Size(300, 48);
             label2.TabIndex = 9;
             label2.Text = "Get ready for smarter and more efficient management.\r\nGreater Profits!";
             // 
             // WelcomeForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(3, 68, 136);
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1550, 907);
+            ClientSize = new Size(1199, 562);
             Controls.Add(label2);
             Controls.Add(pictureBox2);
             Controls.Add(label3);
@@ -131,6 +131,7 @@
             Controls.Add(btnLogin_Click);
             DoubleBuffered = true;
             ForeColor = Color.FromArgb(3, 68, 136);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "WelcomeForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "WelcomeForm";

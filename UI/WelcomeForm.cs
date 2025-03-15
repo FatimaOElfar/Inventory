@@ -1,6 +1,16 @@
-using System;
+﻿using System;
+using System.Text;
 using System.Windows.Forms;
+using InventoryManagementSystem.Data;
 using InventoryManagementSystem.UI;
+using System.Drawing;
+using ZXing; // Required for QR code generation and scanning
+using ZXing.Common; // Required for HybridBinarizer
+using ZXing.Rendering; // Extra rendering support if needed
+using QRCoder;
+using ZXing.QrCode;
+
+
 
 namespace InventoryManagementSystem
 {
@@ -28,23 +38,11 @@ namespace InventoryManagementSystem
         private void btnExit_Click_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

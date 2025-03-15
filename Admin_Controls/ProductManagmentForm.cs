@@ -6,6 +6,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using Microsoft.EntityFrameworkCore;
+using QRCoder;
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace InventoryManagementSystem
 {
@@ -151,6 +156,33 @@ namespace InventoryManagementSystem
                 _selectedProductId = -1;
             }
         }
+        //private void dgv_ShowData_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        //{
+        //    if (e.RowIndex >= 0)
+        //    {
+        //        var row = dgv_ShowData.Rows[e.RowIndex];
+        //        _selectedProductId = Convert.ToInt32(row.Cells["Id"].Value);
+
+        //        using (var context = new InventoryDbContext())
+        //        {
+        //            var product = context.Products
+        //                                 .AsNoTracking()
+        //                                 .Include(p => p.Supplier)
+        //                                 .FirstOrDefault(p => p.Id == _selectedProductId);
+
+        //            if (product != null)
+        //            {
+        //                txt_name_search.Text = product.Name ?? string.Empty;
+        //                txt_price.Text = product.Price.ToString();
+        //                txt_quantity.Text = product.StockQuantity.ToString();
+        //                cb_supplier.SelectedValue = product.SupplierId;
+        //                txt_category.Text = product.Category ?? string.Empty;
+        //                GenerateQRCode(product.Name);
+        //            }
+        //        }
+        //    }
+        //}
+
         private void dgv_ShowData_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (e.RowIndex >= 0)
@@ -172,12 +204,15 @@ namespace InventoryManagementSystem
                         txt_quantity.Text = product.StockQuantity.ToString();
                         cb_supplier.SelectedValue = product.SupplierId;
                         txt_category.Text = product.Category ?? string.Empty;
+
+                        // Generate QR Code for selected product
+                        string qrData = $"ID: {product.Id}\nName: {product.Name}\nPrice: {product.Price}\nStock: {product.StockQuantity}";
+                        pb_QRCode.Image = GenerateQRCode(qrData);
                     }
                 }
             }
         }
 
-        //refersh
 
         private void SearchProducts()
         {
@@ -318,7 +353,33 @@ namespace InventoryManagementSystem
             };
         }
 
-        
-      
+
+        private Bitmap GenerateQRCode(string qrData)
+        {
+            using (QRCodeGenerator qrGenerator = new QRCodeGenerator())
+            {
+                using (QRCodeData qrCodeData = qrGenerator.CreateQrCode(qrData, QRCodeGenerator.ECCLevel.Q))
+                {
+                    using (QRCode qrCode = new QRCode(qrCodeData))
+                    {
+                        return qrCode.GetGraphic(3);
+                    }
+                }
+            }
+        }
+
+
+
+        private void btnGenerateQR_Click(object sender, EventArgs e)
+        {
+            if (_selectedProductId == -1)
+            {
+                MessageBox.Show("Please select a product first!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string qrData = $"ID: {_selectedProductId}\nName: {txt_name_search.Text}\nPrice: {txt_price.Text}\nStock: {txt_quantity.Text}";
+            pb_QRCode.Image = GenerateQRCode(qrData);
+        }
     }
 }
