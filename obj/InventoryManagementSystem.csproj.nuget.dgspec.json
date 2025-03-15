@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\v2\\Inventory\\InventoryManagementSystem.csproj": {}
+    "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj": {}
   },
   "projects": {
-    "F:\\v2\\Inventory\\InventoryManagementSystem.csproj": {
+    "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\v2\\Inventory\\InventoryManagementSystem.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj",
         "projectName": "InventoryManagementSystem",
-        "projectPath": "F:\\v2\\Inventory\\InventoryManagementSystem.csproj",
-        "packagesPath": "C:\\Users\\Fatma\\.nuget\\packages\\",
-        "outputPath": "F:\\v2\\Inventory\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Downloads\\Inventory\\InventoryManagementSystem.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Downloads\\Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fatma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,12 +44,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.66, )"
@@ -59,19 +62,27 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.2, )"
+              "version": "[9.0.3, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
             }
           },
           "imports": [
@@ -93,7 +104,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

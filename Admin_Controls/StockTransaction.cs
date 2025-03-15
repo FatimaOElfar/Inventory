@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using InventoryManagementSystem.Models;
 using InventoryManagementSystem.Data;
-using InventoryManagementSystem.Services;
+
 //print
 using System.Drawing;
 using System.Drawing.Printing;

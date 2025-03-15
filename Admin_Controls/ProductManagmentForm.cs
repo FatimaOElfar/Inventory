@@ -249,6 +249,7 @@ namespace InventoryManagementSystem
 
         private void ApplyGridViewStyle()
         {
+
             dgv_ShowData.Font = new Font("Segoe UI", 10);
 
             dgv_ShowData.ColumnHeadersDefaultCellStyle.BackColor = Color.LightSteelBlue;
@@ -317,6 +318,7 @@ namespace InventoryManagementSystem
             };
         }
 
+        
       
     }
 }

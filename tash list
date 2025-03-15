@@ -1,0 +1,51 @@
+* [33m7522679[m[33m ([m[1;36mHEAD -> [m[1;32mfatma[m[33m)[m login and main_form desing and solve conflicts
+[31m|[m * [33m16592db[m[33m ([m[1;35mrefs/stash[m[33m)[m WIP on fatma: 2b52897 StockManagment_form
+[31m|[m[31m/[m[33m|[m 
+[31m|[m * [33m4ebe9e3[m index on fatma: 2b52897 StockManagment_form
+[31m|[m[31m/[m  
+* [33m2b52897[m[33m ([m[1;31morigin/fatma[m[33m)[m StockManagment_form
+[33m|[m *   [33me8362aa[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m finish-Sale
+[33m|[m [34m|[m[35m\[m  
+[33m|[m [34m|[m *   [33m65887f8[m Merge pull request #6 from FatimaOElfar/fatma
+[33m|[m [34m|[m [36m|[m[33m\[m  
+[33m|[m [34m|[m[33m_[m[36m|[m[33m/[m  
+[33m|[m[33m/[m[34m|[m [36m|[m   
+* [34m|[m [36m|[m [33m4283b21[m Dashboard and userManag
+[36m|[m [34m|[m[36m/[m  
+[36m|[m[36m/[m[34m|[m   
+[36m|[m * [33m58403cf[m finish-Sale
+[36m|[m[36m/[m  
+* [33madf314c[m[33m ([m[1;32mmain[m[33m)[m creating supplier form and updaing supplier service
+[1;31m|[m * [33m9947b04[m[33m ([m[1;31morigin/fatmaomar[m[33m)[m modification
+[1;31m|[m * [33m460ec9a[m Removed bin/ and obj/ from Git and added to .gitignore
+[1;31m|[m *   [33mab12e8b[m Resolved merge conflicts
+[1;31m|[m [1;33m|[m[1;31m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m   
+* [1;33m|[m   [33m582b562[m Merge pull request #4 from FatimaOElfar/fatma
+[1;35m|[m[1;36m\[m [1;33m\[m  
+[1;35m|[m * [1;33m|[m [33m6d54b5b[m AdminProduct_completed
+[1;35m|[m [1;36m|[m * [33mc274135[m Removed binary files from tracking
+[1;35m|[m [1;36m|[m * [33mf6f9104[m userManager
+[1;35m|[m [1;36m|[m[1;35m/[m  
+[1;35m|[m[1;35m/[m[1;36m|[m   
+* [1;36m|[m [33m0c852a1[m Merge pull request #3 from FatimaOElfar/fatma
+[31m|[m[1;36m\[m[1;36m|[m 
+[31m|[m * [33m8ea9343[m AdminMainForm_product
+[31m|[m[31m/[m  
+*   [33m054d102[m update
+[33m|[m[34m\[m  
+[33m|[m *   [33mf42e9d9[m Merge pull request #2 from FatimaOElfar/mostafa
+[33m|[m [35m|[m[36m\[m  
+[33m|[m [35m|[m * [33m7060433[m[33m ([m[1;31morigin/mostafa[m[33m)[m Creating SignUp and Welcome froms and login empty
+[33m|[m [35m|[m * [33m278f09a[m modify naming
+[33m|[m [35m|[m[35m/[m  
+* [35m/[m [33m88690cb[m update
+[35m|[m[35m/[m  
+* [33mb21e53a[m createServices
+*   [33mf1b7175[m Merge pull request #1 from FatimaOElfar/playing
+[1;31m|[m[1;32m\[m  
+[1;31m|[m * [33m4f016a6[m add-class
+[1;31m|[m[1;31m/[m  
+* [33m327d6ed[m CreateDB
+* [33m836f2c1[m Added .vs/ to .gitignore
